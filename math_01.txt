@@ -1,0 +1,5526 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AMT PUBLISHING
+
+101 PROBLEMS lN ALGEBRA
+PROM THE TRAlNlNG OF THE USA lMO TEAM
+
+
+
+I
+'I  1\ NORE F SC lJ n Z H N(i
+
+Published by
+
+AMT PUBLISHING
+
+
+Australian Mathematics Trust University of Canberra ACT 2601 AUSTRAUA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright @2001 AMT Publishing
+
+
+Telephone: +61 2 6201 5137
+AMTT Limited ACN 083 950 341
+National Library of Australia Card Number and ISSN
+Australian Mathematics Trust Enrichment Series ISSN 1326-0170 101 Problems in Algebra ISBN 1 876420 12 X
+
+
+THE	AUSTRALIAN  MATHEMATICS  TRUST
+
+
+ENRlCHMENT	SERlES
+
+
+
+EDlroRl'\l  Cm,l IITTEE
+
+
+• Chairman
+• Editor
+
+GRAHAM H POUARD, Canberra AUSTRALIA PETER J TAYLOR, Canberra AUSTRALIA
+
+WARREN J ATKINS, Canberra AUSTRALIA ED J BARBEAU, Toronto CANADA
+GEORGE BERZSENYl, Terra Haute USA RON DUNKLEY, Waterloo CANADA WALTER E MIENTKA, Lincoln USA N1KOLAY KONSTANTINOV, Moscow RUSSIA
+ANDY Liu, Edmonton CANADA JORDAN B TABOV, Sofia BULGARIA
+JOHN WEBB, Cape Town SOUTH AFRICA
+
+The books in this series are selected for their motivating, interesting and stimulating sets of quality problems, with a lucid expository style in their solutions. Typically, the problems have occurred in either national or international contests at the secondary school level.
+They are intended to be sufficiently detailed at an elementary level for the mathematically inclined or interested to understand but, at the same time, be interesting and sometimes challenging to the undergraduate and the more advanced mathematician. 1t is believed that these mathematics competition problems are a positive influence on the learning and enrichment of mathematics.
+
+THE  AUSTRALIAN  MATHEMATICS TRUST
+
+
+ENRlCHMENT	5ER1ES
+
+BOOI\', IN  I Ill	S11\11 ',
+
+1 1	AUSTRALIAN MATHEMATICS COMPETITION BOOK 1 1978-1984
+
+JD Edwards, DJ King Et PJ O'Halloran
+1 2	MATHEMATICAL TOOLCHEST
+
+AW Plank Et NH Williams
+3 TOURNAMENT OF TOWNS QUESTIONS AND SOLUTIONS 1984-1989
+PJ Taylor
+4 AUSTRALIAN MATHEMATICS COMPE1lllON BOOK 2 1985-1991
+PJ O'Halloran, G Pollard Et PJ Taylor
+
+5 PROBLEM SOLVING VIA THE AMC
+W Atkins
+6 TOURNAMENT OF TOWNS QUESTIONS AND SOLUTIONS 1980-1984
+PJ Taylor
+7 TOURNAMENT OF TOWNS QUESTIONS AND SOLUTIONS 1989-1993
+PJ Taylor
+8 ASIAN PACIFIC MATHEMATICS OLYMPIADS 1989-2000
+H Lausch Et C Bosch Giral
+, 9	METHODS OF PROBLEM SOLVING BOOK 1
+JB Tabov Et PJ Taylor
+, 10	CHALLENGE! 1991-1995
+JB Henry, J Dawsey, AR Edwards, LI Mottershead, A Nakos Et G Vardaro
+11 USSR MATHEMATICAL OLYMPIADS 1989-1992
+ 1
+AM Slinko
+1 12   AUSTRALIAN MATHEMATICAL OLYMPIADS 1979-1995
+
+H Lausch Et PJ Taylor
+1 13	CHINESE MATHEMATICS COMPETITIONS AND OLYMPIADS 1981-1993
+A Liu
+
+114  POLISH ff AUSTRIAN MATHEMATICAL OLYMPIADS 1981- 1995
+ME Kuczma Et E Windischbacher
+15 TOURNAMENT OF TOWNS QUESTIONS AND SOLUTIONS 1993-1997
+PJ Taylor Et AM Storozhev
+116 AUSTRALIAN MATHEMA77CS COMPETITION BOOK 3 1992-1998
+WJ Atkins, JE Munro Et PJ Taylor
+117 SEEKING SOLUTIONS
+JC Burns
+1 8 101 PROBLEMS IN ALGEBRA
+T Andreescu Et Z Feng
+
+
+
+PREFACE
+
+
+This book contains one hundred highly rated problems used in the train­ ing and testing of the USA International Mathematical Olympiad (IMO) team. It is not a collection of one hundred very difficult, impenetrable questions. Instead, the book gradually builds students' algebraic skills and techniques. This work aims to broaden students' view of mathemat­ ics and better prepare them for possible participation in various mathe­ matical competitions. It provides in-depth enrichment in important areas of algebra by reorganizing and enhancing students' problem-solving tac­ tics and strategies. The book further stimulates students' interest for future study of mathematics.
+
+
+
+INTRODUCTION
+
+In the United States of America, the selection process leading to par­ ticipation in the International Mathematical Olympiad (IMO) consists of a series of national contests called the American Mathematics Con­ test 10 (AMC 10), the American Mathematics Contest 12 (AMC 12), the American Invitational Mathematics Examination(AIME), and the United States of America Mathematical Olympiad (USAMO). Partici­ pation in the AIME and the USAMO is by invitation only, based on performance in the preceding exams of the sequence. The Mathemati­ cal Olympiad Summer Program (MOSP) is a four-week, intense train­ ing of 24-30 very promising students who have risen to the top of the American Mathematics Competitions. The six students representing the United States of America in the IMO are selected on the basis of their USAMO scores and further IMO-type testing that takes place during MOSP. Throughout MOSP, full days of classes and extensive problem sets give students thorough preparation in several important areas of mathematics. These topics include combinatorial arguments and identi­ ties, generating functions, graph theory, recursive relations, telescoping sums and products, probability, number theory, polynomials, theory of equations, complex numbers in geometry, algorithmic proofs, combinato­ rial and advanced geometry, functional equations and classical inequali­ ties.
+Olympiad-style exams consist of several challenging essay problems. Cor­ rect solutions often require deep analysis and careful argument. Olym­ piad questions can seem impenetrable to the novice, yet most can be solved with elementary high school mathematics techniques, cleverly ap­ plied.
+Here is some advice for students who attempt the problems that follow.
+• Take your time! Very few contestants can solve all the given prob­ lems.
+• Try to make connections between problems. A very important theme of this work is: all important techniques and ideas featured in the book appear more than once!
+• Olympiad problems don't "crack" immediately. Be patient. Try different approaches. Experiment with simple cases. In some cases, working backward from the desired result is helpful.
+• Even if you can solve a problem, do read the solutions. They may contain some ideas that did not occur in your solutions, and they
+
+viii	Introduction
+
+may discuss strategic and tactical approaches that can be used else­ where. The formal solutions are also models of elegant presenta­ tion that you should emulate, but they often obscure the torturous process of investigation, false starts, inspiration and attention to detail that led to them. When you read the solutions, try to re­ construct the thinking that went into them. Ask yourself, "What were the key ideas?" "How can I apply these ideas further?"
+• Go back to the original problem later, and see if you can solve it in a different way. Many of the problems have multiple solutions, but not all are outlined here.
+• All terms in boldface are defined in the Glossary. Use the glossary and the reading list to further your mathematical education.
+• Meaningful problem solving takes practice. Don't get discouraged if you have trouble at first. For additional practice, use the books on the reading list.
+
+ACKNOWLEDGEMENTS
+
+Thanks to Tiankai Liu who helped in proof reading and preparing solu­ tions.
+Many problems are either inspired by or fixed from mathematical contests in different countries and from the following journals:
+High-School Mathematics, China
+Revista Matematicii. Timi§oara, Romania Kvant, Russia
+
+We did our best to cite all the original sources of the problems in the solu­ tion part. We express our deepest appreciation to the original proposers of the problems.
+
+
+
+ABBREVIATIONS AND NOTATIONS
+
+
+
+
+Abbreviations
+AHSME
+
+AIME
+
+AMClO AMC12
+
+ARML IMO USAMO MOSP
+Putnam
+
+St. Petersburg
+
+
+
+American High School Mathematics Examination
+American Invitational Mathematics Examination
+American Mathematics Contest 10 American Mathematics Contest 12,
+which replaces AHSME
+American Regional Mathematics League International Mathematical Olympiad
+United States of America Mathematical Olympiad Mathematical Olympiad Summer Program
+The William Lowell Putnam Mathematical Competition
+St. Petersburg (Leningrad) Mathematical Olympiad
+
+
+Notations for Numerical Sets and Fields
+
+z
+Zn
+N
+No Q Q+
+Qo
+Qn
+JR JR+
+]RO
+]Rn
+C
+
+the set of integers
+the set of integers modulo n
+the set of positive integers
+the set of nonnegative integers the set of rational numbers
+the set of positive rational numbers
+the set of nonnegative rational numbers the set of n-tuples of rational numbers the set of real numbers
+the set of positive real numbers
+the set of nonnegative real numbers the set of n-tuples of real numbers the set of complex numbers
+
+
+
+
+
+
+• PREFACE
+
+• INTRODUCTION
+
+• ACKNOWLEDGEMENTS
+
+• ABBREVIATIONS AND NOTATIONS
+ 
+vii ix xi xiii
+
+• 1. INTRODUCTORY PROBLEMS
+• 2. ADVANCED PROBLEMS	13
+• 3. SOLUTIONS TO INTRODUCTORY PROBLEMS	27
+• 4. SOLUTIONS TO ADVANCED PROBLEMS	65
+• GLOSSARY	1 31
+• FURTHER READING	137
+
+
+
+
+lNTRODUCTORY  PROBLEMS
+
+
+
+1. INTRODUCTORY PROBLEMS
+
+
+Problem 1
+Let a, b, and c be real and positive parameters. Solve the equation
+
+
+
+Problem 2
+Find the general term of the sequence defined by x0 = 3, x1 = 4 and
+
+for all"n EN.
+
+Problem 3
+Let x1, x2, ... , Xn be a sequence of integers such that
+(i) -1 :':: X2 :':: 2, fori = 1, 2, ... , n;
+(ii) X1 + X2 +·	+ Xn  = 19;
+(iii) x? + X§ +·· · + x; = 99.
+Determine the minimum and maximum possible values of
+
+
+Problem 4
+The function f, defined by
+
+f(x)=ax+b
+ex+d
+where a, b, c, and d are nonzero real numbers, has the properties
+!(19) = 19,	f(97) = 97,	and	f(f(x)) = x,
+
+
+for all values of x,
+
+d
+except --.
+C
+
+Find the range of f.
+
+
+
+Problem 5
+Prove that
+
+
+for all a	b > 0.
+
+
+-(-a- - b)2 < -a-+ b -va"bo< -(a--- b)2
+8a	-	2	-	8b
+
+
+Problem 6
+Several (at least two) nonzero numbers are written on a board. One may erase any two numbers, say a and b, and then write the numbers a+ and b -	instead.
+Prove that the set of numbers on the board, after any number of the preceding operations, cannot coincide with the initial set.
+
+Problem 7
+The polynomial
+1 - X + x2 -  x3 + ... + xl6 - XI 7
+
+may be written in the form
+
+where y = x + l and ais are constants. Find a2.
+
+Problem 8
+Let a, b, and c be distinct nonzero real numbers such that
+1	1	1
++-	+-	-.
+b	c	a
+Prove that label = 1.
+Problem 9
+Find polynomials f(x), g(x), and h(x), if they exist, such that for all x,
+
+
+IJ(x)I - jg(x)I + h(x) = {
+
+
+-1
+3x + 2
+-2x+2
+
+if X < -l
+if -1	X	0
+if X > 0.
+
+
+Problem 10
+Find all real numbers x for which
+gx + 27x	7
+12x +18X = 6°
+
+Problem 11
+Find the least positive integer m such that
+
+for all positive integers n.
+
+Problem 12
+Let a,b, c, d, and e be positive integers such that
+abcde = a + b + c + d + e.
+Find the maximum possible value of max{a, b, c, d, e}.
+
+Problem 13
+Evaluate
+3	4	2001
+1! + 2! + 3!+ 2! + 3! + 4!+ ...+ 1999! + 2000! + 2001!.
+
+Problem 14
+Let x = Ja2 +a+ l - Ja2 - a+ l, a E JR. Find all possible values of x.
+Problem 15
+Find all real numbers x for which
+
+
+
+Problem 16
+Let f: N x N----, N be a function such that f(l,1) = 2,
+f(m+ 1,n) = f(m,n) +m and f(m,n+ 1) = f(m,n)-n
+for all m, n E N.
+Find all pairs (p, q) such that f(p, q) = 2001.
+
+Problem 17
+Let f be a function defined on [O, 1] such that
+f(O) = f(l) = 1 and IJ(a) - f(b)I < la - bl,
+for all a i= b in the interval [O, l].
+Prove that
+lf(a) - f(b)I < 21"
+
+Problem 18
+Find all pairs of integers ( x, y) such that
+
+
+
+
+Problem 19
+Let f(x) = -- 2
+4x
+
+
+
+for real numbers x.
+
+Evaluate
+
+
+
+Problem 20
+Prove that for n	6 the equation
+1	1	1
+-xr+-x+···+x-;=1
+has integer solutions.
+
+Problem 21
+Find all pairs of integers (a, b) such that the polynomial ax17 +bx16 + 1 is divisible by x2 - x - l.
+
+
+Problem 22
+Given a positive integer n, let p(n) be the product of the non-zero digits of n. (If n has only one digit, then p(n) is equal to that digit.) Let
+S = p(l) + p(2) +··· + p(999).
+What is the largest prime factor of S?
+
+Problem 23
+Let Xn be a sequence of nonzero real numbers such that
+
+for n = 3,4, ....
+Establish necessary and sufficient conditions on x1 and X2 for xv, to be an integer for infinitely many values of n.
+
+
+Problem 24
+Solve the equation
+
+
+x3 -  3x = x + 2.
+
+
+Problem 25
+For any sequence of real numbers A = {a1, a2, a3,·· ·}, define .6.A to be the sequence {a2 - a1, a3 - a2, a4 - a3, ... }. Suppose that all of the terms of the sequence .6.(.6.A) are 1, and that a19 = a92 = 0.
+Find a1.
+
+Problem 26
+Find all real numbers x satisfying the equation
+
+2x + 3_x
+
+4x + 6_x
+
+gx = 1.
+
+
+
+Problem 27
+Prove that
+
+
+
+80  1
+16 <	r,- < 11.
+k=l  vk
+
+
+Problem 28
+Determine the number of ordered pairs of integers (m, n) for which mn
+0 and
+m3 + n3 + 99mn = 333.
+
+
+Problem 29
+Let a, b, and c be positive real numbers such that a + b + c	4 and
+ab+ be+ ca	4.
+Prove that at least two of the inequalities
+ja - bl	2,	lb - cl	2,	jc - aj	2
+are true.
+
+
+Problem 30
+Evaluate
+
+
+
+n	l
+(n - k)!(n + k)·!
+
+
+Problem 31
+Let O < a < l. Solve
+
+for positive numbers x.
+
+Problem 32
+What is the coefficient of x2 when
+(1 + x)(l + 2x)(l + 4x) ··· (1 + 2nx)
+is expanded?
+
+Problem 33
+Let m and n be distinct positive integers.
+Find the maximum value of jxm - xnl, where x is a real number in the interval (0, 1).
+
+Problem 34
+Prove that the polynomial
+
+
+where a1, a2, · · · , an are distinct integers, cannot be written as the prod­ uct of two non-constant polynomials with integer coefficients, i.e., it is irreducible.
+
+
+Problem 35
+Find all ordered pairs of real numbers (x, y) for which:
+(1+ x)(l +x2)(1+ x4)
+and	(1 + y)(l + y2)(1+ y4)
+
+Problem 36
+Solve the equation
+
+for real numbers x.
+
+Problem 37
+Let a be an irrational number and let n be an integer greater than 1.
+Prove that
+
+
+is an irrational number.
+
+
+Problem 38
+Solve the system of equations
+(x1 - X2 + X3)2 (x2 - X3 + X4)2 (x3 - X4 + xs)2 (x4 - X5 + X1)2
+(xs - x1 + x2)2
+for real numbers x1, x2, X3, X4, xs.
+
+
+
+X2(X4 + X5 - X2) X3(X5 + X1 - X3) X4(X1 + X2 - X4) X5(X2 + X3 - X5)
+x1(x3 + X4 - xi)
+
+
+Problem 39
+Let x, y, and z be complex numbers such that
+x+y+z = 2,
+x2 + y2 + z2 = 3
+
+and Evaluate
+
+
+xyz = 4.
+1	1	1
+-xy-+ -z - -l +-yz -+ x-- -l +-zx -+ y-- -l
+
+
+Problem 40
+Mr. Fat is going to pick three non-zero real numbers and Mr. Taf is going to arrange the three numbers as the coefficients of a quadratic equation
+_x2 + _x + _ = 0.
+Mr. Fat wins the game if and only if the resulting equation has two distinct rational solutions.
+Who has a winning strategy?
+
+Problem 41
+Given that the real numbers a, b, c, d, and e satisfy simultaneously the relations
+       a+ b + c + d + e = 8 and a2 + b2 + c2 +d2 + e2 = 16, determine the maximum and the minimum value of a.
+Problem 42
+Find the real zeros of the polynomial
+
+where a is a given real number.
+
+
+Problem 43
+Prove that
+
+1  3	2n - 1	1
+-·-···--<--
+2  4	2n
+
+for all positive integers n.
+
+Problem 44
+Let
+
+P(x) = aoxn + a1xn-l +···+an
+
+be a nonzero polynomial with integer coefficients such that P(r)
+P(s) = 0 for some integers rand s, with O < r < s.
+Prove that ak ::; -s  for some k.
+
+Problem 45
+Let m be a given real number.
+Find all complex numbers x such that
+
+
+
+Problem 46
+The sequence given by Xo = a, X1 = b, and
+
+is periodic.
+Prove that ab= l.
+
+Problem 47
+Let a, b, c, and d be real numbers such that
+(a2 + b2 - l)(c2 + d2 - 1) > (ac + bd - 1)2.
+
+Prove that
+
+
+a2 + b2 > 1 and c2 + d2 > l.
+
+
+Problem 48
+Find all complex numbers z such that
+(3z + 1)(4z + 1)(6z + 1)(12z +1) = 2.
+
+Problem 49
+Let x1, x2,.. · , Xn-l, be the zeros different from 1 of the polynomial
+P(x) = xn - 1, n	2.
+Prove that
+
+--1 +--1 +..·+
+
+1	n-1
+
+
+l-x1	l-x2	1-Xn-1 =-2-·
+
+Problem 50
+Let a and b be given real numbers. Solve the system of equations
+
+
+
+X  -yJx2 -y2
+J1- x2 +y2
+
+y-xJx2 -y2
+J1-x2  +y2
+for real numbers x and y.
+
+=	a,
+
+=  b
+
+
+
+ADVANCED PROBLEMS
+
+
+
+2. ADVANCED PROBLEMS
+
+
+Problem 51
+Evaluate
+(22000) + (20500) + (28000) +... + (220000) .
+
+Problem 52
+Let x, y, z be positive real numbers such that x4 + y4 + z4 = l.
+Determine with proof the minimum value of
+x3	y3	z3
+-1--x8+1-- -y8+1-- -z8·
+
+Problem 53
+Find all real solutions to the equation
+
+
+
+Problem 54
+Let {an}n:::::1 be a sequence such that a1 = 2 and
+
+for all n EN.
+Find an explicit formula for an.
+
+Problem 55
+Let x, y, and z be positive real numbers. Prove that
+
+	X	+--,==y==;==
+x+ J(x+y)(x+z)	y+ J(y+z)(y+x)
+
++	z	<	l.
+z + y'(z + x)(z + y)
+
+Find, with proof, all nonzero polynomials f (z) such that
+J(z2) + J(z)f(z + l) = 0.
+
+Problem 57
+Let f: N--, N be a function such that J(n + l) > f(n) and
+J(f(n)) = 3n
+for all n.
+Evaluate /(2001).
+
+Problem 58
+Let F be the set of all polynomials f(x) with integers coefficients such that f(x) = l has at least one integer root.
+For each integer k > l, find mk, the least integer greater than 1 for which there exists f E F such that the equation f (x) = mk has exactly k distinct integer roots.
+
+Problem 59
+Let x1 = 2 and
+
+for n 2: l.
+Prove that
+
+
+Problem 60
+Suppose that J : JR+ --, JR+ is a decreasing function such that for all
+x, y E JR+,
+f(x + y) + f(f(x) + f(y)) = f(J(x + f(y)) + f(y + J(x))).
+Prove that J(f(x)) = x.
+
+
+Problem 61
+Find all functions f : Ql	t Ql such that
+f(x + y) + f(x - y) = 2/(x) + 2/(y)
+for all x, y E Ql.
+
+Problem 62
+Let3/4< a< l.
+Prove that the equation
+x3(x + 1) = (x + a)(2x + a)
+has four distinct real solutions and find these solutions in explicit form.
+
+Problem 63
+Let a, b, and c be positive real numbers such that abc = l.
+Prove that
+--- 1	+ --- 1	+ --- 1	< 1.
+a+b+l b+c+l c+a+l-
+
+Problem 64
+Find all functions f, defined on the set of ordered pairs of positive inte­ gers, satisfying the following properties:
+f(x, x) = x, f(x, y) = f(y, x), (x + y)f(x, y) = yf(x, x + y).
+
+Problem 65
+Consider n complex numbers zk, such that lzkl 5 1, k = l, 2, ... , n.
+Prove that there exist e1, e2, ... , en E {-1, 1} such that, for any m 5 n,
+
+
+Problem 66
+Find a triple of rational numbers (a, b, c) such that
+
+
+Find the minimum of
+
+where x1, x2, ...  , Xn are real numbers in the interval(1/4, 1).
+
+Problem 68
+Determine x2 + y2 + z2 + w2 if
+x2	y2	z2	w2
+22 - 12 + 22 - 32 + 22 - 52 + 22 - 72=	l,
+x2	y2	z2	w2
+42 - 12 + 42 - 32 + 42 - 52 + 42 - 72 = l,
+x2	y2	z2	w2
+62 - 12 + 62 - 32 + 62 - 52 + 62 - 72 = l,
+x2	y2	z2	w2
+82 - 12 + 82 - 32 + 82 - 52 + 82 - 72 = 1.
+
+Problem 69
+Find all functions f : JR --+ JR such that
+f(xf(x) + f(y)) = (f(x))2 + y
+for all x, y E JR.
+
+Problem 70
+The numbers 1000, 1001, • • •, 2999 have been written on a board.
+Each time, one is allowed to erase two numbers, say, a and b, and replace them by the number 1/2 min(a, b).
+After 1999 such operations, one obtains exactly one number c on the board. Prove that c < 1.
+Problem 71
+Let a1, a2, ... , an be real numbers, not ail zero. Prove that the equation
+Jl + a1x +1+ a2x +··· + Jl + anx = n
+has at most one nonzero real root.
+
+
+Problem 72
+Let {an} be the sequence of real numbers defined by a1 = t and
+an+l = 4an(l - an)
+for n	l.
+For how many distinct values of t do we have a1998 = O?
+Problem 73
+(a) Do there exist functions f: JR-+ JR and g : JR-+ JR such that
+f(g(x)) = x2	and	g(f(x)) = x3
+for all x E JR?
+(b) Do there exist functions f : JR -+ JR and g : JR -+ JR such that
+f(g(x)) = x2	and	g(f(x)) = x4
+for all X E JR?
+
+Problem 74
+Let O < a1 :5 a2 · · · :5 an, 0 < b1 S b2 · · · S bn be real numbers such that
+n	n
+Lai Lbi,
+i=l	i=l
+Suppose that there exists 1 :5 k S n such that bi S ai for 1 :5 i :5 k and
+bi	ai for i > k.
+Prove that
+
+Problem 75
+Given eight non-zero real numbers a1, a2, · · ·, a8, prove that at least one of the following six numbers: a1a3 + a2a4, a1a5 + a2a6, a1a1 + a2aa, a3a5 + a4a5, a3a7 + a4aa, a5a7 + a5aa is non-negative.
+Problem 76
+Let a, b and c be positive real numbers such that abc = l.
+Prove that
+
+
+Find all functions f : JR. --+ JR. such that the equality
+f(f(x) + y) = f(x2 -  y) + 4/(x)y
+holds for all pairs of real numbers (x, y).
+
+
+Problem 78
+Solve the system of equations:
+
+x+
+
+
+
+
+3x -y
+2	2  =3
+X
+
+_  X +3y   _ Q
+Y	x2 + y2 -	·
+
+Problem 79
+Mr. Fat and Mr. Taf play a game with a polynomial of degree at least 4:
+x2n + _x2n-l + _x2n-2 + ... + _x + 1.
+They fill in real numbers to empty spaces in turn. If the resulting poly­ nomial has no real root, Mr. Fat wins; otherwise, Mr. Taf wins.
+If Mr. Fat goes first, who has a winning strategy?
+
+Problem 80
+Find all positive integers k for which the following statement is true: if
+F(x) is a polynomial with integer coefficients satisfying the condition
+              0	F(c)	k	for	c = 0, 1, ... , k + l, then F(O) = F(l) = ··· = F(k + 1).
+Problem 81
+The Fibonacci sequence Fn is given by
+
+
+
+Prove that
+
+
+for all n	2.
+
+p.	_ Ffn+2 + Ffn-2 _ p,3
+2n-	g	2n
+
+
+Problem 82
+Find all functions u : JR --+ JR for which there exists a strictly monotonic function f : JR --+ JR such that
+f(x + y) = f(x)u(y) + f(y)
+for all x, y E JR.
+
+Problem 83
+Let z1, z2, ... , Zn be complex numbers such that
+
+Prove that there exists a subset S of {z1, z2, ...  , Zn} such that
+
+
+Problem 84
+A polynomial P(x) of degree n	5 with integer coefficients and n distinct integer roots is given.
+Find all integer roots of P(P(x)) given that O is a root of P(x).
+
+Problem 85
+Two real sequences x1, x2, ... , and y1, Y2, ... , are defined in the following way:
+
+
+and
+
+Xn+I = Xn + Jl + x;,
+	Yn	
+
+Yn+I = l
+
+/f,7.22
+V .1
+
+for all n  l. Prove that 2 < Xn'Jln < 3 for all n > l.
+Problem 86
+For a polynomial P(x), define the difference of P(x) on the interval [a, b]
+([a, b), (a, b), (a, bl) as P(b) - P(a).
+Prove that it is possible to dissect the interval [O, 1] into a finite number of intervals and color them red and blue alternately such that, for every quadratic polynomial P(x), the total difference of P(x) on red intervals is equal to that of P(x) on blue intervals.
+What about cubic polynomials?
+
+Given a cubic equation
+
+
+x3 +_x2 + _x + _ = 0,
+
+Mr. Fat and Mr. Taf are playing the following game. In one move, Mr. Fat chooses a real number and Mr. Taf puts it in one of the empty spaces. After three moves the game is over. Mr. Fat wins the game if the final equation has three distinct integer roots.
+Who has a winning strategy?
+
+Problem 88
+Let n > 2 be an integer and let f : JR.2 -,  JR be a function such that for any regular n-gon A1A2... An,
+
+
+Prove that f is the zero function.
+
+Problem 89
+Let p be a prime number and let f(x) be a polynomial of degreed with integer coefficients such that:
+(i) /(0) = 0, /(1) = 1;
+(ii) for every positive integer n, the remainder upon division of f(n)
+by p is either 0 or l.
+Prove that d 2'. p - l.
+
+Problem 90
+Let n be a given positive integer.
+Consider the sequence a0, a1, ···,an with a0 =	and
+
+for k = l, 2, • • · , n.
+Prove that	1
+l--<an<l. n
+
+
+Problem 91
+Let a1, a2, ..• , an be nonnegative real numbers, not all zero.
+(a) Prove that xn - a1xn-I - ··· - an-IX - an = 0 has precisely one positive real root R.
+(b) Let A = I:;=1 ai and B = I:;=1 Ja1.
+Prove that AA	R8.
+
+Problem 92
+Prove that there exists a polynomial P(x, y) with real coefficients such that P(x, y)  0 for all real numbers x and y, which cannot be written as the sum of squares of polynomials with real coefficients.
+
+Problem 93
+For each positive integer n, show that there exists a positive integer k
+such that
+k = f(x)(x + 1)2n + g(x)(x2n + 1)
+for some polynomials f, g with integer coefficients, and find the smallest such k as a function of n.
+
+Problem 94
+Let x be a positive real number.
+(a) Prove that
+00	(n-1)!	1
+(x + 1) .. · (x + n=)	-;·
+
+(b) Prove that
+
+n(x + 1) ... (x + n)=	L (x + k)2·
+
+Let n 2: 3 be an integer, and let
+
+be a set of 3n2 elements.
+Prove that one can find nine distinct numbers a., b,, c, (i = 1, 2, 3) in X
+such that the system
+a1x + b1y + c1z	0
+a2x + b2y + c2z	0
+a3x + b3y + c3z	0
+has a solution (xo,Yo, zo) in nonzero integers.
+
+Problem 96
+Let n 2: 3 be an integer and let x1, x2, · · ·, Xn be positive real numbers.
+Suppose that I:--= l.
+J=l 1 +x3
+Prove that
+
+Fi+y'x;"+ ..·+Jx;;'2:(n-1) ( -1 +-1 + .·. +1 -)	.
+Fi	\fX2	..;x;;
+
+Problem 97
+Let x1, x2, ... , Xn be distinct real numbers. Define the polynomials
+P(x) = (x - x1)(x - x2) ··· (x - Xn)
+
+
+and
+
+Q(x) = P(x) ( -- 1
+
++ -- 1
+
++ .. · + -- 1  )	.
+
+X -  X1	X -  X2	X -  Xn
+Let Y1, Y2, ... , Yn-1 be the roots of Q. Show that
+
+
+
+Problem 98
+Show that for any positive integer n, the polynomial
+f(x) = (x2 + x)2n + 1
+cannot be written as the product of two non-constant polynomials with integer coefficients.
+
+Problem 99
+Let Ji, h, h : JR --. JR be functions such that
+
+is monotonic for all a1, a2, a3 E JR.
+Prove that there exist c1, c2, c3 E JR, not all zero, such that
+
+
+for all x ER
+
+Problem 100
+Let X1, X2, ... , Xn be variables, and let Y1, Y2, ... , Y2n -1 be the sums of nonempty subsets of Xi.
+Let Pk(x1, .•. , xn) be the kth elementary symmetric polynomial in the Yi (the sum of every product of k distinct Yis).
+For which k and n is every coefficient of Pk ( as a polynomial in x1, ... , Xn)
+even?
+For example, if n = 2, then Y1, Y2, y3 are x1, x2, x1 + x2 and
+P1 = Y1 + Y2 +Y3 = 2x1 + 2x2,
+P2 = Y1Y2 +Y2Y3 +Y3Y1 = xf + x + 3x1x2,
+p3 = Y1Y2Y3 = X21X2 + X1X22-
+
+Problem 101
+Prove that there exist 10 distinct real numbers a1, a2, ... , a10 such that the equation
+
+has exactly 5 different real roots.
+
+
+
+SOLUTlONS TO lNTRODUCTORY PROBLEMS
+
+
+
+     3. SOLUTIONS TO INTRODUCTORY PROBLEMS
+
+Problem 1 [Romania 1974]
+Let a, b, and c be real and positive parameters. Solve the equation
+ a+ bxb++ex+c +ax= Jb- ax+c -bxa+-ex.
+
+Solution 1
+It is easy to see that x = 0 is a solution. Since the right hand side is a decreasing function of x and the left hand side is an increasing function of x, there is at most one solution.
+Thus x = 0 is the only solution to the equation.
+Problem 2
+Find the general term of the sequence defined by Xo = 3, X1 = 4 and
+
+for all n EN.
+Solution 2
+We shall prove by induction that Xn = n + 3. The claim is evident for
+n = 0, l.
+For k	l, if Xk-1 = k + 2 and Xk = k + 3, then
+
+as desired.
+This completes the induction.
+
+
+Problem 3 [AHSME 1999]
+Let x1, x2, ... , Xn be a sequence of integers such that
+(i) -1	Xi	2, for i = 1, 2, ... , n;
+(ii) X1 + X2 +··· + Xn = 19;
+(iii) x + x +··· + x; = 99.
+Determine the minimum and maximum possible values of
+
+
+Solution 3
+Let a, b, and c denote the number of - ls, ls, and 2s in the sequence, respectively. We need not consider the zeros. Then a, b, care nonnegative integers satisfying
+-a + b + 2c = 19 and a + b + 4c = 99.
+It follows that a= 40-c and b = 59-3c, where O  c  19 (since b  0), so
+x + x +· • • + x! = -a + b + Be = 19 + 6c.
+When c = 0 (a= 40, b = 59), the lower bound (19) is achieved. When c = 19 (a= 21, b = 2), the upper bound (133) is achieved.
+Problem 4 [AIME 1997]
+The function/, defined by
+
+f(x=)
+
+
+ax+b, cx+d
+
+where a, b, c, and d are nonzero real numbers, has the properties
+/(19) = 19,	/(97) = 97,	and	f(f(x)) = x,
+
+
+for all values of x,
+
+d
+except--.
+C
+
+Find the range of /.
+Solution 4, Alternative 1
+For all x, f(f(x)) = x, i.e.,
+
+a (ax+b) +b cx+d
+c (ax+ b)+ d=	x, cx+d
+
+
+
+i.e.
+
+
+i.e.
+
+
+(a2 + bc)x + b(a + d) x c(a+d)x+bc+d2 -	'
+
+c(a + d)x2 + (d2 -  a2)x - b(a + d) = 0,
+
+which implies that c(a + d) = 0. Since c =/ 0, we must have a = -d.
+The conditions /(19) = 19 and /(97) = 97 lead to the equations 192 c = 2 · 19a + b	and	972c = 2 · 97a + b.
+
+Hence
+
+(972 - 192)c = 2(97 - 19)a.
+
+It follows that a = 58c, which in turn leads to b = -1843c. Therefore
+f(x)=	58x - 1843= 58+	1521
+X -  58	X -  58'
+which never has the value 58. Thus the range of/ is JR. - {58}. Solution 4, Alternative 2
+The statement implies that / is its own inverse. The inverse may be
+found by solving the equation
+
+
+
+
+for y. This yields
+
+
+   ay+b x=--
+cy+d
+
+1-1(x)= dx-b_
+-cx+a
+
+The nonzero numbers a, b, c, and d must therefore be proportional to d,
+-b, -c, and a, respectively; it follows that a = -d, and the rest is the
+same as in the first solution.
+
+
+Problem 5
+Prove that
+
+
+-(a'----b-)'-2 < -a-+ b - v,;-b < -('a	b-)'-2
+
+
+for all a	b > 0.
+
+Ba	-2
+
+ao -	8b
+
+Solution 5, Alternative 1
+Note that
+ya+ v'b)2 < l <	(ya+ v'b)2 2ya	-	-		2v'b	'
+
+
+i.e.
+
+
+
+i.e.
+
+
+(a-b)2< a-2v'ab+b< (a-b)2
+8a  -	2	8b	'
+
+from which the result follows.
+Solution 5, Alternative 2
+Note that
+
+
+a+  _b
+2
+
+
+v'a=b
+
+
+2
+( a+)b	b
+-2-  - a
+-a+-b+varo-.-b
+2
+
+
+(a - b)2
+
+
+2(a + b) + 4v'ab.
+
+Thus the desired inequality is equivalent to
+4a ? a + b + 2vab ? 4b,
+which is evident as a? b > 0 (which implies a?  v'ab? b).
+
+Problem 6 [St. Petersburg 1989]
+Several (at least two) nonzero numbers are written on a board. One may erase any two numbers, say a and b, and then write the numbers a +
+and b -	instead.
+Prove that the set of numbers on the board, after any number of the preceding operations, cannot coincide with the initial set.
+Solution 6
+Let S be the sum of the squares of the numbers on the board. Note that S increases in the first operation and does not decrease in any successive operation, as
+
+with equality only if a = b = 0. This completes the proof.
+
+
+Problem 7 [AIME 1986]
+The polynomial
+1 - x + x2 - x3 + ... + x16 - x11
+
+may be written in the form
+                 ao + a1y + a2y2 + ··· + a16y16 + a17y17, where y = x + l and ais are constants. Find a2.
+Solution 7, Alternative 1
+Let f(x) denote the given expression. Then
+x!( x) =x-x2 +x3 -···-x18
+
+and
+
+Hence
+
+
+(1 + x)f(x) = 1-  x18.
+
+f(x)=	f(y-	1=)	1 - (y - 1)1s	1 - (y - 1)1s
+l+(y-l)	y
+Therefore a2 is equal to the coefficient of y3 in the expansion of
+
+i.e.,
+
+Solution 7, Alternative 2
+Let f(x) denote the given expression. Then
+f(x) = f(y- l) =1- (y-1) + (y-1)2 - ... - (y-1)17
+= 1 + (1-  y) + (1 - y)2 + ··· + (1 - y)17.
+Thus
+
+
+Here we used the formula
+
+
+
+and the fact that
+
+G) = G) = l.
+
+
+Problem 8
+Let a, b, and c be distinct nonzero real numbers such that
+a+ - = b + - = c + -.
+b	c	a
+Prove that label = 1.
+Solution 8
+From the given conditions it follows that
+a - b = --,	b - c = --,	and c - a = --.
+be	ca	ab
+Multiplying the above equations gives (abc)2 = 1, from which the desired result follows.
+
+Problem 9 [Putnam 1999]
+Find polynomials f(x), g(x), and h(x), if they exist, such that for all x,
+-1	if x < -l
+
+1/(x)I - lg(x)I + h(x) = {
+
+Solution 9, Alternative 1
+
+3x + 2	if -1 :=:; x :=:; 0
+-2X + 2  if X > 0.
+
+Since x = - l and x = 0 are the two critical values of the absolute functions, one can suppose that
+F(x)	alx + 11 + blxl +ex+ d
+(c-a-b)x+d-a	ifx<-1
+=	{  (a+c-b)x+a+d	if-1:=:;x:=:;0
+(a+ b + c)x +a+  d	if x > 0,
+which implies that a= 3/2, b = -5/2, c = -1, and d = 1/2. Hence f(x) = (3x + 3)/2, g(x) = 5x/2, and h(x) = -x + 1/2­
+Solution 9, Alternative 2
+Note that if r(x) and s(x) are any two functions, then
+                  max(r,s ) = r + s + Ir - sl . Therefore, if F(x) is the given function, we have
+F(x)	max{-3x - 3, 0} - max{5x, 0} + 3x + 2
+(-3x - 3+ l3x + 31)/2 - (5x + l5xl)/2 + 3x + 2 l(3x + 3)/21- l5x/21- x + 2.
+
+
+Problem 10
+Find all real numbers x for which
+Bx+ 27x	7
+12x+ 1sx=	6°
+
+Solution 10
+By setting 2x = a and 3x = b, the equation becomes
+a3 +b3	7
+a2b + b2a	6'
+
+i.e.
+
+
+i.e.
+
+i.e.
+
+a2 -  ab+ b2	7
+ab	-	6'
+6a2 - 13ab + 6b2 = 0, (2a - 3b)(3a - 2b) = 0.
+
+Therefore 2x+l = 3x+I or 2x-l = 3x-1, which implies that x = -1 and
+X = l,
+It is easy to check that both x = -1 and x = 1 satisfy the given equation.
+Problem 11 [Romania 1990]
+Find the least positive integer m such that
+
+for all positive integers n.
+Solution 11
+Note that
+
+and for n = 5, Thus m = 4.
+
+
+Problem 12
+Let a, b, c, d, and e be positive integers such that
+
+abcde = a + b + c + d + e.
+Find the maximum possible value of max{a, b, c, d, e}.
+Solution 12, Alternative 1
+Suppose that a	b	c	d	e. We need to find the maximum value of
+e. Since
+                     e < a + b + c + d + e	5e, then e < abcde	5e, i.e. 1 < abed	5.
+Hence (a, b, c, d) = (1, 1, 1, 2), (1, 1, 1, 3), (1, 1, 1, 4), (1, 1, 2, 2), or
+(1, 1, 1,5), which leads to max{e} = 5.
+Solution 12, Alternative 2
+As before, suppose that a	b	c	d	e. Note that
+
+    1	1	1	1	1 l=-+-+-+-+-
+bcde	cdea	deab	eabc	abed
+
+< _!_+_!_+_!_+!+!=  3+d+e
+-	de	de	de	e	d	de
+Therefore, de	3 + d + e or (d - l)(e - 1)	4.
+If d = l, then a = b = c = l and 4 + e = e, which is impossible. Thus d - l	1 and e - 1	4 or e	5.
+It is easy to see that (1, 1, 1, 2, 5) is a solution. Therefore max{e} = 5.
+Comment: The second solution can be used to determine the maxi­ mum value of {xi, x2, ... , Xn}, when xi, x2, ... , Xn are positive integers such that
+
+
+Problem 13
+Evaluate
+
+3420011! + 2! + 3!+2! + 3! + 4!+ ... +1999! + 2000! + 2001!.
+
+
+Solution 13
+Note that
+		k+2	 k! + (k + 1)! + {k + 2)!
+
+=
+
+
+
+
+          k+2 	 k![l + k + 1 + {k + l){k + 2)]
+1
+k!(k + 2)
+k+l 
+(k + 2)!
+(k + 2) - 1
+(k + 2)!
+
+1
+(k + 1)!
+  
+1 (k+2)!'
+
+By telescoping sum, the desired value is equal to
+1	1
+-2	20011·
+
+Problem 14
+Let x =a2 +a1+-a2 - a+1, a ER Find all possible values of x.
+Solution 14, Alternative 1
+Since
+
+
+and
+
+
+we have
+
+
+2a
+X	---;:::.:;.======:	;:::.:;.=====;=,
+a2 +a1+a2 - a+1
+
+lxl < 12a/al = 2.
+
+Squaring both sides of
+
+x + J a2 -  a + 1 = J a2 + a + 1
+
+yields
+
+
+2xJa2 -  a+ 1 = 2a - x2•
+
+
+Squaring both sides of the above equation gives
+
+
+4(x2
+
+
+- l)a2
+
+= x2(x2 •
+
+
+- 4) or a2
+
+x2(x2	4)
+---=---.
+4(x2 - 1)
+
+
+Since a2	0, we must have
+
+Since !xi < 2, x2 -4 < 0 which forces x2 -1 < 0. Therefore, -1 < x < l.
+Conversely, for every x E (-1, 1) there exists a real number a such that
+x = Ja2 +a+ l - Ja2 -  a+ l.
+Solution 14, Alternative 2
+Let A = (-1/2, 0,/2), B = (1/2, 0,/2), and P = (a, 0).  Then P
+is a point on the x-axis and we are looking for all possible values of
+d=PA-PB.
+By the Triangle Inequality, IPA- PBI < IABI = l. And it is clear that all the values -1 < d < l are indeed obtainable. In fact, for such a d, a half hyperbola of all points Q such that QA - QB = d is well defined. (Points A and B are foci of the hyperbola.)
+Since line AB is parallel to the x-axis, this half hyperbola intersects the
+x- axis, i.e., P is well defined.
+
+Problem 15
+Find all real numbers x for which
+
+
+Solution 15
+It is easy to check that x = 2 is a solution. We claim that it is the only one. In fact, dividing by 13x on both sides gives
+(lO)x (.!.!)x	(12)x= l	(14)x
+The left hand side is a decreasing function of x and the right hand side is an increasing function of x.
+Therefore their graphs can have at most one point of intersection.
+
+
+
+Comment:	More generally,
+
+a2 +(a+ 1)2 +•••+(a+ k)2
+         = (a+ k + 1)2 +(a+k + 2)2 +··· +(a+ 2k)2 for a= k(2k + 1), k EN.
+Problem 16 [Korean Mathematics Competition 2001]
+Let f : N x N -  N be a function such that f (1, 1) = 2,
+f(m + 1, n) = f(m, n) + m and f(m, n + 1) = f(m, n) - n
+for all m, n E N.
+Find all pairs (p, q) such that f(p, q) = 2001.
+Solution 16
+We have
+f (p, q)	=	f (p - 1, q) + p - 1
+f(p- 2,q) + (p-  2) + (p-1)
+=
+=	f(l,q) + p(p; l)
+=	f(l, q - 1) - (q - 1) + p(p- 1)
+f (1, 1) - q(q; l)+ p(p; l) 2001.
+
+Therefore
+
+
+i.e.
+
+
+p(p- l)-	q(q- l)= 1999
+2	2	'
+
+(p - q)(p + q - 1) = 2 · 1999.
+
+Note that 1999 is a prime number and that p-q < p+q-1 for p,q EN. We have the following two cases:
+l.  p - q = 1 and p + q - 1 = 3998. Hence p = 2000 and q = 1999.
+2. p - q = 2 and p + q - 1 = 1999. Hence p = 1001 and q = 999.
+
+
+Therefore (p, q) = (2000, 1999) or (1001, 999).
+Problem 17 [China 1983]
+Let f be a function defined on [O, 1] such that
+            /(0) = /(1) = 1 and 1/(a) - /(b)I < la - bl, for all a-=/- bin	the interval [O, l].
+Prove that
+
+
+
+Solution 17
+
+1/(a) - /(b)I < 2.
+
+We consider the following cases.
+
+1. la - bl::; 1/2. Then 1/(a) - /(b)I < la - bl::; ' asdesired.
+2. la - bl > 1/2. By symmetry, we may assume that a > b. Then 1/(a) - /(b)I	1/(a) - /(1) + /(0) - /(b)I
+<	1/(a) - /(1)1 + 1/(0) - /(b)I
+<	la-ll+IO-bl
+1-a+b-0
+1- (a - b)
+1
+<	2'
+as desired.
+
+Problem 18
+Find all pairs of integers (x, y) such that
+x3 + y3 = (x + y)2.
+
+Solution 18
+Since x3+y3 = (x + y)(x2 - xy + y2), all pairs of integers (n, -n), n E Z, are solutions.
+Suppose that x + y -=/- 0. Then the equation becomes
+x2 -  xy + y2 = x + y,
+
+i.e.
+
+
+x2 -  (y + l)x + y2 -  y = 0.
+
+
+Treated as a quadratic equation in x, we calculate the discriminant
+b. = y2 + 2y + 1 - 4y2 + 4y = -3y2 + 6y + 1.
+Solving for b.	0 yields
+
+Thus the possible values for y are 0, 1, and 2, which lead to the solutions
+(1, 0), (0, 1), (1, 2), (2, 1), and (2, 2).
+Therefore, the integer solutions of the equation are (x, y) = (1, 0), (0, 1), (1, 2), (2, 1), (2, 2), and (n, -n), for all n E Z.
+
+Problem 19 [Korean Mathematics Competition 2001]
+Let
+2
+f(x) = 4x+ 2
+for real numbers x. Evaluate
+
+1 (20 1)+ 1 (2to1)+··· +  1 (	) ·
+
+Solution 19
+Note that / has a half-turn symmetry about point (1/2, 1/2). Indeed,
+2
+/(1 - x) = 4-1--x-+-2
+from which it follows that f(x) + /(1 - x) = 1.
+Thus the desired sum is equal to 1000.
+
+Problem 20
+Prove that for n	6 the equation
+1	1		1-+-	..·+   =1
+
+has integer solutions.
+Solution 20
+Note that	1	1	1	1	1
+a2=	(2a)2+ (2a)2+ (2a)2+ (2a)2'
+
+
+from which it follows that if (x1, x2, · · ·, Xn) = (a1, a2, ···,an) is an inte­ ger solution to
+-1+-1	1 -1 x2	x2+ ..·+x2--	'
+1	2	n
+then
+
+(x1, X2, · · ·, Xn-1, Xn, Xn+l, Xn+2, Xn+3)
+               = (a1, a2, · ··, an-1, 2an, 2an, 2an, 2an,) is an integer solution to
+
+Therefore we can construct the solutions inductively if there are solutions for n = 6, 7, and 8.
+Since x1 = 1 is a solution for n = l, (2, 2, 2, 2) is a solution for n = 4, and (2, 2, 2, 4, 4, 4, 4) is a solution for n = 7.
+It is easy to check that (2, 2, 2, 3, 3, 6) and (2, 2, 2, 3, 4, 4, 12, 12) are solu­ tions for n = 6 and n = 8, respectively. This completes the proof.
+
+Problem 21 [AIME 1988]
+Find all pairs of integers (a, b) such that the polynomial
+ax17 + bx16 + 1
+
+is divisible by x2 -  x - l.
+Solution 21, Alternative 1
+Let p and  q be the roots of x2 -  x -  l = 0.  By Vieta's theorem, p + q = l and pq = -l.  Note that p and q must also be the roots of ax17 + bx16 + 1 = 0. Thus
+ap11 + bpl6 = -1 and aq11 + bql6 = -l.
+Multiplying the first of these equations by q16, the second one by p16, and using the fact that pq = - l, we find
+ap + b = -q16 and aq + b = -p16.	(1)
+
+Thus
+
+
+
+
+Since
+
+
+
+  p+q p2 +q2 p4 +q4
+ps + qs
+
+
+
+1,
+(p+ q)2 -  2pq = 1 + 2 = 3,
+(p2 + q2)2 - 2p2q2 = 9 - 2 = 7,
+(p4 + q4)2 - 2p4q4 = 49 - 2 = 47,
+
+it follows that a= l · 3· 7 · 47 = 987.
+Likewise, eliminating a in (1) gives
+pl7 _ ql7
+-b	=	p-q
+=	pl6 + pl5q + pl4q2 + ... + ql6
+(pl6 + ql6) + pq(pl4 + ql4) + p2q2(pl2 + ql2)
++ ... + p1q1(p2 + q2) + psqs
+
+=	(pl6 + ql6_)
+
+(pl4 + ql4) + ._..
+
+(p2 + q2) + l.
+
+For n	l, let k2n = p2n + q2n. Then k2 = 3 and k4 = 7, and
+k2n+4	p2n+4 + q2n+4
+(p2n+2+ q2n+2)(p2+ q2) _ p2q2(p2n + q2n)
+
+for n	3. Then ka = 18, ks = 47, k10 = 123, k12 = 322, k14 = 843,
+k16 = 2207.
+Hence
+-b = 2207 - 843 + 322 - 123 + 47 - 18 + 7 - 3 + 1 = 1597
+or
+(a,b) = (987,-1597).
+
+Solution 21, Alternative 2
+The other factor is of degree 15 and we write
+(c1sx15 - c14x14 + ··· + c1x - co)(x2 - x - l) = ax17 + bx16 + l.
+Comparing coefficients:
+XO:	Co= 1,
+X1 : Co - C1 = 0, C1 = 1
+x2 :	-CQ - C1 + C2 = 0, C2 = 2,
+and for 3	k	15,	xk :	-Ck-2 - Ck-1 + Ck = 0.
+
+
+It follows that fork 15, Ck = Fk+l (the Fibonacci number).
+Thus a = C1s = F15 = 987 and b = -c14 - c1s = -F11 = -1597 or
+(a,b) = (987,-1597).
+
+Comment: Combining the two methods, we obtain some interesting facts about sequences k2n and F2n-l· Since
+
+
+it follows that F2n-1 and k2n satisfy the same recursive relation. It is easy to check that k2 = F1 + F3 and k4 = F3 + Fs.
+Therefore k2n = F2n-l + F2n+l and
+
+
+Problem 22 [AIME 1994]
+Given a positive integer n, let p(n) be the product of the non-zero digits of n. (If n has only one digit, then p(n) is equal to that digit.) Let
+S = p(l) + p(2) +··· + p(999).
+What is the largest prime factor of S?
+Solution 22
+Consider each positive integer less than 1000 to be a three-digit number by prefixing Os to numbers with fewer than three digits. The sum of the products of the digits of all such positive numbers is
+(0 · 0 · 0 + 0 · 0 · 1 +··· + 9 · 9 · 9) - 0 · 0 · 0
+= (0 + 1 +··· + 9)3-	0.
+However, p(n) is the product of non-zero digits of n. The sum of these products can be found by replacing O by 1 in the above expression, since ignoring O's is equivalent to thinking of them as l's in the products. (Note that the final O in the above expression becomes a 1 and compensates for the contribution of 000 after it is changed to 111.)
+Hence
+S = 463 -  1 = (46 - 1)(462 + 46 + 1) = 33 · 5 · 7· 103,
+and the largest prime factor is 103.
+
+
+Problem 23 [Putnam 1979]
+Let Xn be a sequence of nonzero real numbers such that
+Xn Xn-2Xn-1
+=------
+2Xn-2 - Xn-1
+for n = 3,4, ....
+Establish necessary and sufficient conditions on x1 and x2 for Xn to be an integer for infinitely many values of n.
+Solution 23, Alternative 1
+
+We have	1	2Xn-2 -  Xn-1 Xn-2Xn-1
+
+= 2	1
+Xn-1	Xn-2
+
+Let Yn = 1/xn. Then Yn - Yn-1 = Yn-1 - Yn-2, i.e., Yn is an arithmetic sequence. If Xn is a nonzero integer when n is in an infinite set S, the
+Yn's for n ES satisfy -1   Yn   l.
+Since an arithmetic sequence is unbounded unless the common difference is 0, Yn - Yn-1 = 0 for all n, which in turn implies that X1 = X2 = m, a nonzero integer.
+Clearly, this condition is also sufficient.
+Solution 23, Alternative 2
+An easy induction shows that
+
+for n = 3,4, ....
+In this form we see that Xn will be an integer for infinitely many values of n if and only if X1 = x2 = m for some nonzero integer m.
+Problem 24
+Solve the equation
+x3 - 3x = Jx   + 2.
+Solution 24, Alternative 1
+It is clear that x	-2. We consider the following cases.
+1. -2	x	2. Setting x = 2cosa, 0  a	1r, the equation becomes 8cos3 a - 6cosa = J2(cosa + 1).
+or
+2cos3a 4= cos2  '
+
+
+from which it follows that cos 3a =cos%·
+Then 3a - % = 2m7l', m E Z, or 3a + % = 2n7l', n E Z. Since O ::; a::; 7!', the solution in this case is
+x = 2 cos O = 2, x = 2 cos 47!,' and x = 2 cos 47!.'
+
+2. x > 2. Then x3 -  4x = x(x2 -  4) > 0 and
+x2 -  x - 2 = (x - 2)(x + 1) > 0
+
+or
+
+
+It follows that
+
+x3 -  3x > x > Jx + 2.
+
+Hence there are no solutions in this case.
+Therefore, x = 2, x = 2cos47l'/5, and x = 2cos47l'/7.
+Solution 24, Alternative 2
+For x > 2, there is a real number t > 1 such that
+2	1
+X = t	t2.
+
+
+The equation becomes
+
+(t2 +  !  3
+
+
+
+3 (t2 +  !  ) =t2 +  !  + 2
+
+
+
+i.e.
+
+
+I.e.
+
+t2 _)
+
+t2	t2	'
+
+t6 +-1 =t+-1
+
+(t7 -  l)(t5 - 1) = 0,
+
+which has no solutions for t > l.
+Hence there are no solutions for x > 2.
+For -2 ::; x ::; 2, please see the first solution.
+
+
+Problem 25 [AIME 1992]
+For any sequence of real numbers A = {a1, a2, a3, · · ·}, define 6.A to be the sequence {a2 - a1, a3 - a2, a4 - a3, ... }.
+Suppose that all of the terms of the sequence 6.(6.A) are 1, and that
+a19 = a92 = 0.
+Find a1.
+Solution 25
+Suppose that the first term of the sequence 6.A is d.
+Then
+6.A = {d, d + l, d + 2, ... }
+with the nth term given by d + (n - 1).
+Hence
+
+
+with the nth term given by
+
+This shows that an is a quadratic polynomial in n with leading coefficient
+1/2.
+Since a19 = ag2 = 0, we must have
+
+
+an=
+
+1 (n -  l9)(n - 92),
+
+
+so a1 = (1 - 19)(1 - 92)/2 = 819.
+Problem 26 [Korean Mathematics Competition 2000]
+Find all real numbers x satisfying the equation
+
+
+Solution 26
+Setting 2x = a and 3x = b, the equation becomes
+1 + a2 + b2 -  a - b - ab=  0.
+Multiplying both sides of the last equation by 2 and completing the squares gives
+(1 - a)2 + (a - b)2 + (b - 1)2 = 0.
+
+
+Therefore 1 = 2x = 3x, and x = 0 is the only solution.
+
+
+Problem 27 [China 1992]
+Prove that
+
+ z::
+
+
+
+Solution 27
+Note that
+
+16 <
+
+
+k=I  vk
+
+< 11.
+
+
+
+Therefore
+
+2 (Jk"+I - v'k)  =		,/k <	 - 
+
+,/k > 2 z:= (vk+1- Jk) = 16,
+k=l	k=l
+which proves the lower bound. On the other hand,
+2 (v'k - v1k=I) = ,/k		>	 - 
+
+Therefore
+,/k < l + 2 L (,/k - v1k=I) = 2VSO - 1 < 17,
+k=l	k=2
+which proves the upper bound. Our proof is complete.
+
+Problem 28 [AHSME 1999]
+Determine the number of ordered pairs of integers (m, n) for which mn 2 0 and
+
+
+
+Solution 28
+
+m3 + n3 + 99mn = 333.
+
+Note that (m + n)3 = m3 + n3 + 3mn(m + n). If m + n = 33, then 333 = (m + n)3 = m3 + n3 + 3mn(m + n) = m3 + n3 + 99mn.
+Hence m + n - 33 is a factor of m3 + n3 + 99mn - 333. We have
+m3 + n3 + 99mn - 333
+= (m + n - 33)(m2 + n2 -mn  + 33m + 33n + 332)
+= 1 (m + n - 33)[(m - n)2 + (m + 33)2 + (n + 33)2].
+
+
+Hence there are 35 solutions altogether: (0, 33), (1, 32), · • ·, (33, 0), and
+(-33, -33).
+
+Comment:	More generally, we have
+a3 + b3 + c3 -  3abc
+= 1 (a + b + c)[(a - b)2 + (b - c)2 + (c - a)2].
+
+Problem 29 [Korean Mathematics Competition 2001]
+Let a,b, and c be positive real numbers such that a + b + c ::; 4 and
+ab + be + ca 2 4.
+Prove that at least two of the inequalities
+la - bl ::; 2,	lb - cl ::; 2,	le - al ::; 2
+
+are true.
+Solution 29
+We have
+
+i.e.
+
+i.e.
+
+i.e.
+
+i.e.
+
+
+
+
+(a+ b + c)2 ::; 16,
+
+a2 + b2 + c2 + 2(ab +be+ ca) ::; 16,
+
+a2 + b2 + c2 ::; 8,
+
+a2 + b2 + c2 -  (ab+ be+ ca) ::; 4,
+
+(a - b)2 + (b - c)2 + (c - a)2 ::; 8,
+
+and the desired result follows.
+
+
+Problem 30
+Evaluate
+
+
+
+n	l
+(n - k)!(n + k)·!
+k=O
+
+
+Solution 30
+Let Sn denote the desired sum. Then
+ 1	n		(2n)! (2n)!		(n - k)!(n + k)!
+1	n	(	2n )
+(2n)!	n-k
+
+=1n(2n)(2n)!k
+1	1	[2n (2n)	(2n)]
+(2n)!·	k	n
+
+_1.	! [22n + (2n)] (2n)! 2	n
+22n-l	1
+=	(2n)!+ 2(n!)2·
+Problem 31 [Romania 1983]
+Let O < a < l. Solve
+
+
+for positive numbers x.
+Solution 31
+Taking loga yields
+
+
+
+
+
+ax loga X = xa.
+
+Consider functions from JR+ -+ JR,
+
+Then both f and g are decreasing and h is increasing. It follows that
+f(x)g(x) = h(x) has unique solution x = a.
+Problem 32
+What is the coefficient of x2 when
+(1 + x)(l + 2x)(l + 4x) ··· (1 + 2nx)
+is expanded?
+
+
+Solution 32
+Let
+fn(x) = an,o + an,1X .+ · ·· + an,nXn = (1+ x)(l + 2x) ··· (1+ 2nx).
+It is easy to see that an,o = 1 and
+an,l = 1 + 2 +··· + 2n = 2n+l - l.
+
+Since
+
+
+fn(x)	fn-1(x)(l + 2nx)
+(1 + (2n -  l)x +an-1,2x2 +···) (1 + 2nx)
+1 + (2n+l - 1) X + (an-1,2 + 22n - 2n) x2 +···,
+
+we have
+an,2	an-1,2 + 22n - 2n
+an-2,2 + 22n-2 - 2n-l + 22n - 2n
+
+a1,2 + (24 + 26 + ... + 22n) - (22 + 23 + ... + 2n)
+2 + 24(22n-2- 	1)-	4(2n-l-	1)
+3
+22n+2 - 3 · 2n+1 + 2	(2n+l - 1) (2n+l -  2)
+3	3
+Problem 33
+Let m and n be distinct positive integers.
+Find the maximum value of lxm - xnl, where x is a real number in the interval (0, 1).
+Solution 33
+By symmetry, we can assume that m > n. Let y = xm-n.
+Since O < x < 1, xm < xn and O < y < l. Thus
+
+lxm - xnl = xn - xm = xn(l - xm-n) = (yn(l -yr-n)
+Applying the AM-GM inequality yields
+yn(l-yr-n	=	(m  n)nCm:n)y)n(l-yr-n
+
+1
+;;;=;;:.
+
+<	(-n-)n (n  ·			+ (m- n)(l -y))n+m-n m-n		n+m-n
+
+
+
+Therefore
+
+Equality holds if and only if
+
+(m- 	n)y= l -y n
+or	( n)...n 
+m
+Comment:  Form= n + 1, we have
+
+xn _ xn+l<
+
+nn _
+
+- (n + l)n+l
+for real numbers O < x < l. Equality holds if and only if x = n/(n + 1).
+Problem 34
+Prove that the polynomial
+
+where a1, a2, ···,an aredistinct integers, cannot be written as the prod­ uct of two non-constant polynomials with integer coefficients, i.e., it is irreducible.
+Solution 34
+For the sake of contradiction, suppose that
+
+is not irreducible. Let f(x) = p(x)q(x) such that p(x) and q(x) are two polynomials with integral coefficients having degree less than n. Then
+g(x) = p(x) + q(x)
+is a polynomial with integral coefficients having degree less than n.
+Since
+p(ai)q(ai) = f(ai) = -1
+and both p(ai) and q(a,) are integers,
+
+
+
+
+and
+
+
+p(ai) + q(ai) = 0.
+
+Thus g(x) has at least n roots. But degg < n, so g(x) = 0. Then
+p(x) = -q(x)	and	f(x) = -p(x)2,
+which implies that the leading coefficient of f(x) must be a negative integer, which is impossible, since the leading coefficient of f(x) is 1.
+
+Problem 35
+Find all ordered pairs of real numbers (x, y) for which:
+(1 + x)(l + x2)(1 + x4)	= 1 + y7
+and	(1 + y)(l + y2)(1 + y4)	= 1 + x7•
+Solution 35
+We consider the following cases.
+1. xy = 0. Then it is clear that x = y = 0 and (x, y) = (0, 0) is a solution.
+2. xy < 0. By the symmetry, we can assume that x > 0 > y. Then (1 +x)(l +x2)(1+ x4) > 1 and 1 + y7 < 1. There are no solutions in this case.
+3. x, y > 0 and x =I y.  By the symmetry, we can assume that x >
+y > 0. Then
+(1 + x)(l + x2)(1+ x4) > 1 + x7 > 1 + y7,
+showing that there are no solutions in this case.
+4. x, y < 0 and x =I y. By the symmetry, we can assume that x < y <
+0. Multiplying by 1- x and 1-y the first and the second equation, respectively, the system now reads
+1 - x8  =	(1 + y7)(1 - x) = 1 - X + y7 - xy7
+1 - y8  =	(1 + x7)(1 - y) = 1 - y + x7 - x7y.
+Subtracting the first equation from the second yields
+xs - YB = (x - y) + (x1 - y1) - xy(x6 - y6).	(1)
+Since x < y < 0, x8 -y8 > 0, x-y  < 0, x7 -y7 < 0, -xy  < 0, and x6 - y6 > 0. Therefore, the left-hand side of (1) is positive while the right-hand side of (1) is negative.
+Thus there are no solutions in this case.
+
+
+5. x = y. Then solving
+1 - xs = 1 - x + y7 -  xy7 = l - x + x7 -  xs
+     leads to x = 0, l, -1, which implies that (x,y) = (0, 0) or (-1, -1).
+Therefore, (x, y) = (0, 0) and (-1, -1) are the only solutions to the system.
+
+Problem 36
+Solve the equation
+
+for real numbers x.
+Solution 36
+Rearranging terms by powers of 2 yields
+
+
+
+
+Setting y = x2 - 1 and dividing by 2 on the both sides, (1) becomes
+
+(1)
+
+
+
+
+
+or
+x(2Y - 1) + y(2x - 1) = 0.
+
+
+(2)
+
+Since f(x) = 2x - 1 and x always have the same sign,
+x(2Y - 1) · y(2X - 1)	0.
+
+Hence if the terms on the left-hand side of (2) are nonzero, they must have the same sign, which in turn implies that their sum is not equal to 0.
+Therefore (2) is true if and only if x = 0 or y = 0, which leads to solutions
+x = -l,O, and l.
+Problem 37
+Let a be an irrational number and let n be an integer greater than l.
+Prove that
+
+
+is an irrational number.
+
+
+
+Solution 37
+Let
+
+
+and let
+
+
+
+
+
+b=(a+ )-:..
+
+Then N = b + 1/b. For the sake of contradiction, assume that N is rational. Then by using the identity
+
+repeatedly for m = 1, 2, ... , we obtain that bm + 1/bm is rational for all
+mEN.
+In particular,
+
+bn+_.b!_n =a+ +a-Ja2-1=2a
+is rational, in contradiction with the hypothesis. Therefore our assumption is wrong and N is irrational.
+Problem 38
+Solve the system of equations
+(xi - X2 + X3)2	 X2(X4 + X5 - x2) (X2 - X3 + X4)2  = X3(X5 + X1 - X3) (X3 - X4 + Xs)2	 X4(X1 + X2 - X4) (x4 - X5 + x1)2	X5(X2 + X3 - Xs) (xs  -  X1 + X2)2  =  X1(X3 + X4 -  X1)
+for real numbers xi, x2,  X3, X4, X5.
+Solution 38
+Let Xk+s = Xk-  Adding the five equations gives
+5	5
+2)3x - 4XkXk+l + 2XkXk+2) = I:(-x + 2XkXk+2).
+k=l	k=l
+It follows that
+5
+I:(x - XkXk+1) = 0.
+k=l
+
+
+Multiplying both sides by 2 and completing the squares yields
+
+5
+z)xk - Xk+1)2 = 0,
+k=l
+from which x1 = x2 = X3 = X4 = X5.  Therefore the solutions to the system are
+for a E JR.
+
+Problem 39
+Let x, y, and z be complex numbers such that x+y+z = 2, x2+y2+z2 =
+3, and xyz = 4.
+Evaluate
+  l  + 1   + 1	
+
+
+
+Solution 39
+
+xy+ z - 1	yz + x - l	zx + y - l
+
+Let S be the desired value. Note that
+xy + z - 1 = xy + l - x - y = (x - l)(y - 1).
+
+
+Likewise,
+and Hence
+
+yz + x - l = (y - l)(x - 1)
+
+zx + y - l = (z - l)(x - 1).
+
+1	1	1
+(x - l)(y - 1) + -(y---1-)(-z--1) + -(z---1-)(x---1)
+x+y+z-3	-1
+
+
+(x - l)(y- l)(z - 1)
+-1
+
+
+
+(x - l)(y - l)(z - 1)
+
+
+
+
+
+But
+
+xyz	- (xy  + yz + zx) + x + y + z - 1
+-1
+
+
+5 - (xy + yz + zx)·
+
+2(xy + yz + zx) = (x + y + z)2 -  (x2 + y2 + z2) = l.
+
+Therefore S = -2/9.
+
+
+Problem 40 [USSR 1990]
+Mr. Fat is going to pick three non-zero real numbers and Mr. Taf is going to arrange the thr e numbers as the coefficients of a quadratic equation
+
+_x2 +_x+	=0.
+Mr. Fat wins the game if and only if the resulting equation has two distinct rational solutions.
+Who has a winning strategy?
+Solution 40
+Mr. Fat has the winning strategy. A set of three distinct rational nonzero numbers a, b, and c, such that a+ b +c = 0, will do the trick. Let A, B, and C be any arrangement of a, b, and c, and let f(x) = Ax2 +Bx+ C.
+Then
+/(1) =A+  B + C =a+  b +c = 0,
+which implies that 1 is a solution.
+Since the product of the two solutions is C / A, the other solution is C / A,
+and it is different from l.
+
+Problem 41 [USAMO 1978]
+Given that the real numbers a, b, c, d, and e satisfy simultaneously the relations
+        a + b + c + d + e = 8 and a2 + b2 + c2 + d2 + e2 = 16, determine the maximum and the minimum value of a.
+Solution 41, Alternative 1
+Since the total of b, c, d, and e is 8 - a, their average is x = (8 - a)/4.
+Let
+         b = x + b1,	c = x + c1,	d = x + d1,	e = x + e1, Then b1 + c1 +d1 + e1 = 0 and
+
+(I)
+
+or
+0	5a2 -  16a = a(5a - 16).
+Therefore 0 ::::; a ::::; 16/5, where a = 0 if and only if b = c = d = e = 2 and a = 16/5 if and only if b = c = d = e = 6/5.
+
+
+
+Solution 41, Alternative 2
+By the RMS-AM inequality, (1) follows from
+
+b2+ c2+ d2+ e2> (b +c +d +e)2
+-	4
+and the rest of the solution is the same.
+
+
+
+
+(8 - a)2
+4
+
+
+Problem 42
+Find the real zeros of the polynomial
+
+where a is a given real number.
+Solution 42
+We have
+(x2 + l)(x2 -  2x + 1) - ax2 = 0.
+Dividing by x2 yields
+
+( X +; ) (X -	2 +; ) - a = 0.
+By setting y = x + l/x, thelast equation becomes
+y2 -  2y-  a= 0.
+
+It follows that
+
+
+X + - = l ± /f+a,
+X
+
+which in turn implies that, if a	0, then the polynomial Pa(x) has the real zeros
+1 + J'f+'a ± Ja + 2J'[+'a - 2
+X1,2	2
+In addition, if a	8, then Pa(x) also has the real zeros
+1 -  J'f+'a ± Ja - 2J'[+'a- 2
+X3,4 =	2	,
+
+
+
+Problem 43
+Prove that
+
+1  3	2n - 1	1
+-·-···--<--
+2  4	2n
+
+for all positive integers n.
+
+
+Solution 43
+We prove a stronger statement:
+-1 •3-··2n·- -1-<-1--
+2  4	2n -  3n+ (
+We use induction.
+For n = 1, the result is evident.
+Suppose the statement is true for some positive integer k, i.e.,
+
+-1 . -3 ... -2-k - 1 <
+2  4	2k
+
+1
+----,,,==
+
+
+Then
+
+
+-1 . _3 .,, 2k - 1 . -2-k + 1
+
+ 3k+l·
+
+< --=1==. -2-k + 1
+
+2  4	2k	2k + 2  ak +1 2k +.2
+In order for the induction step to pass it suffices to prove that
+1	2k + 1	1
+---·--<---
+ ak +1 2k + 2  ak +4.
+This reduces to
+
+i.e.
+i.e.
+
+(4k2 + 4k + 1)(3k + 4) < (4k2 + 8k + 4)(3k + 1),
+0 < k,
+
+which is evident. Our proof is complete.
+
+Comment:	By using Stirling numbers, the upper bound can be im­ proved to 1/,fim, for sufficiently large n.
+Problem 44 [USAMO Proposal, Gerald Heuer]
+Let
+P(x) = aoxn + a1xn-I +···+an
+be a nonzero polynomial with integer coefficients such that
+P(r) = P(s) = 0
+for some integers rands, with O < r < s.
+Prove that ak	-s for some k.
+
+
+Solution 44
+Write P(x) = (x - s)xcQ(x) and
+
+where bm -I- 0. Since Q has a positive root, by Descartes' rule of signs, either there must exist some k for which bk > 0	bk+l, or bm > 0.
+If there exists a k for which bk > 0	bk+l, then
+
+If bm > 0, then am = -sbm	-s.
+In either case, there is a k such that ak	-s, as desired.
+
+Problem 45
+Let m be a given real number. Find all complex numbers x such that
+
+
+Solution 45
+Completing the square gives
+
+
+( --1X
+
++-X-1) 2	2x2
+
++m2 +m,
+
+
+
+i.e.
+
+x+	X-
+
+=-2--1
+X  -
+
+2 2	2
+x2-  1	= x2-  1 + m2 + m.
+Setting y = 2x2/(x2 - 1), the above equation becomes
+y2 -  y - (m2 + m) = 0,
+
+i.e.
+(y-m-l)(y+m)=0.
+Thus	2x2	2x2
+-2--	= -m or -2--	= m+ 1,
+X -	X -
+which leads to solutions
+x = ±	m:2 if m -I- -2	and x = ±  :  •if m-I- l.
+
+
+Problem 46
+The sequence given by xo = a, x1 = b, and
+Xn+l = 1/2 (xn-1 + Xln)·
+is periodic.
+Prove that ab = l.
+Solution 46
+Multiplying by 2xn  on both sides of the given recursive relation yields
+
+
+or
+2(XnXn+l - 1) = Xn-lXn-	l.
+Let Yn = Xn-lXn - 1 for n EN. Since Yn+l = Yn/2, {yn} is a geometric sequence. If Xn is periodic, then so is Yn, which implies that Yn = 0 for all n EN. Therefore
+ab = xox1 = YI + 1 = l.
+
+Problem 47
+Let a, b, c, and d be real numbers such that
+(a2 +b2 -  l)(c2 +d2 -  1) > (ac + bd - 1)2.
+
+Prove that
+
+
+Solution 47
+
+
+a2 +b2 > 1 and c2 +d2 > l.
+
+For the sake of the contradiction, suppose that one of a2 +b2 or c2 +d2 is less than or equal to l.  Since (ac + bd - 1)2   0, a2 + b2 -  1 and c2 +d2 -  1 must have the same sign. Thus both a2 +b2 and c2 +d2 are
+less than l. Let
+x = 1 - a2 - b2 and y = 1 - c2 -  d2.
+Then O < x, y	l. Multiplying by 4 on both sides of the given inequality gives
+4xy	>	(2ac + 2bd - 2)2 = (2 - 2ac - 2bd)2
+(a2 + b2 + x + c2 +d2 + y -  2ac - 2bd)2
+[(a - c)2 + (b - d)2 + x + y]2
+2:'.	(x+y)2=x2+2xy+y2,
+
+
+or O > x2 -  2xy + y2 = (x - y)2, which is impossible.
+Thus our assumption is wrong and both a2 +b2 and c2 +d2 are greater than 1.
+
+Problem 48
+Find all complex numbers z such that
+(3z + 1)(4z + 1)(6z + 1)(12z + 1) = 2.
+
+
+Solution 48
+Note that
+
+
+i.e.
+
+
+8(3z + 1)6(4z + 1)4(6z + 1)2(12z + 1) = 768, (24z + 8)(24z + 6)(24z + 4)(24z + 2) = 768.
+
+Setting u = 24z + 5 and w = u2 yields
+(u + 3)(u + l)(u - l)(u - 3) •= 768,
+
+
+i.e.
+
+i.e.
+
+i.e.
+
+
+(u2 -  l)(u2 -  9) = 768,
+
+w2 -  10w - 759 = 0,
+
+(w - 33)(w + 23) = 0.
+
+Therefore the solutions to the given equation are
+
+=z	±.133' - 5 and =z	±/23i - 5.
+24	24
+
+Problem 49
+Let X1, X2, · · · , Xn-I, be the zeros different from 1 of the polynomial
+P(x) = xn - 1, n	2.
+Prove that
+n-1
+2
+
+
+Solution 49, Alternative 1
+For i = 1, 2, ... , n, let ai = l - Xi,  Let
+Q(x) = -P-(l - x) = -(1 - x)n-- .l
+X	X
+Then
+
+and ais are the nonzero roots of the polynomial Q(x), as
+
+Thus the desired sum is the sum of .the reciprocals of the roots of poly­ nomial Q(x), that is,
+
+--1 +--1 +..·+-1--
+X1	X2	Xn-1
+
+=-1+-1+..·+-1-
+a1	a2	an-1
+a2a3 ···an+ a1a3 ···an+···+ a1a2 · · · an-1 a1a2· • • an
+By the Vieta's Theorem, the ratio between
+
+
+
+and
+
+P = a1 ···an
+
+is equal to the additive inverse of the ratio between the coefficient of x
+and the constant term in Q(x), i.e., the desired value is equal to
+
+s
+p
+
+as desired.
+Solution 49, Alternative 2
+For any polynomial R(x) of degree n-l, whose zeros are x1, x2, ... , Xn-l,
+thefollowing identity holds:
+
+--1 +--1 +..·+-1--
+x - X1  X -  X2	X -  Xn-1
+
+R'(x)
+R(x).
+
+
+
+For
+
+R(l) = n and
+
+R( x) =X-n- -=1
+x-1
+
+xn-1 +nx-2 +...+x+1 ,
+
+R'(l) = (n - 1) + (n - 2) + · · + 1 = n(\- l).
+It follows that
+
+1	1	1
+--+--+ .·. +--­
+l- x1	l-x2	1-Xn-1
+
+R'(l) R(l)
+
+n-1
+2
+
+
+
+Problem 50
+Let a and b be given real numbers.
+Solve the system of equations
+
+x- yJx2 -y2 J1 - x2 + y2
+y- xJx2 -y2 J1 -x2 +y2
+for real numbers x and y.
+Solution 50
+Let u = x,+ y and v = x - y. Then
+
+
+
+
+
+=		a, b
+
+0 < x2 -  y2 = uv < 1, x
+
+u+v
+= -2-, and y
+
+u-v
+= -2-.
+
+Adding the two equations and subtracting the two equations in the orig­ inal system yields the new system
+u - u/uv	=	(a+ b) l - uv v+v/uv		=		(a-b) l-uv.
+Multiplying the above two equations yields
+uv(l - uv) = (a2 -  b2)(1- uv),
+hence uv = a2 - b2. It follows that
+(a+ b) l - a2 + b2	(a - b) l - a2 + b2
+u	-'--1-'---,::a:2;;=- =b2;;:-- and v
+which in turn implies· that
+x	-(a+b a2-b2 b+a a2-b2)
+(	'y) -	1 -a2 +- b2 ' 1 -a2 + b2	'
+whenever O < a2 - b2 < 1.
+
+SOLUTlONS TO ADVANCED PROBLEMS
+
+
+
+  4. SOLUTIONS TO ADVANCED PROBLEMS
+
+
+Problem 51
+Evaluate
+
+2000)	(2000)	(2000)	. . .	(2000)
+2	+	5	+	8	+	+2000·
+
+
+Solution 51
+Let
+
+
+
+f(x) =(I+ x)2ooo =
+
+
+
+2000 (2000)
+k	xk.
+
+
+Let w = (-1 + -./3i)/2. Then w3 = I and w2 + w + l = 0. Hence 3 ( (20200) + (20500) + ... + G ))
+= /(1) + wf(w) + w2 f(w2)
+= 22000 + w(l + w)2000 + w2(l + w2)2000
+= 22000+ w(-w2)2000 + w2(-w)2000
+=	22000+ w2+ w=	22000 _ 1.
+Thus the desired value is	22000 -  1
+3
+
+Problem 52
+Let x, y, z be positive real numbers such that x4 + y4 + z4 = 1.
+Determine with proof the minimum value of
+x3	y3	23
+-1--xs+--+--
+
+Solution 52
+For 0 < u < l, let f(u) = u(l - us). Let A be a positive real number.
+By the AM-GM inequality,
+A(f(u))s = Aus(l - us) ... (1 - us) :5 [Aus+ 8?- us)]9
+
+
+Setting A= 8 in the above inequality yields
+
+8(f(u))8 $ ( )  9
+
+
+or
+
+
+It follows that
+x3	y3	z3
+-1--x8+-1 - -y8+1-- -z8
+
+
+8
+f(u) S  -	
+
+
+x4	y4	z4
+-x(-l -- +x-8)---y(-l +- -y-8)--z-(l,---z8-)
+
+>	(x4 + y4 + z4)
+8
+9{/3
+-8-,
+
+
+with equality if and only if
+
+
+X =y  = Z = {/3"
+
+
+Comment:	This is a simple application of the result of problem 33 in the previous chapter.
+
+Problem 53 [Romania 1990]
+Find all real solutions to the equation
+
+
+Solution 53
+For x < 0, the function f(x) = 2x + 3x + 6x - x2 is increasing, so the equation f(x) = 0 has the unique solution x = -l.
+Assume that there is a solutions 2'.: 0. Then
+
+sos 2'.: v'3, and hence lsJ 2'.: l.
+But then s 2'.: ls J yields
+28 2'.: 2lsJ = (1 + l)lsJ 2'.: 1 + lsJ 2'.: s,
+which in turn implies that
+6s > 4s = (2s)2 2'.: 82_
+
+
+So 28 + 38 + 68 > s2, a contradiction.
+Therefore x = -1 is the only solution to the equation.
+Problem 54
+Let {an}n>l be a sequence such that a1 = 2 and
+
+for all n EN.
+Find an explicit formula for an,
+Solution 54
+Solving the equation
+X	1
+
+
+leads to x = ±-/2. Note that
+
+x=-+-
+2  X
+
+
+
+
+
+
+Therefore,
+
+
+
+
+and
+
+an+l + -/2=	a +  2-/2an +2 =	(an+ -/2)2
+an+l - -/2	a; - 2-/2an + 2	an - -/2
+
+
+
+
+
+
+
+
+Problem 55
+Let x, y, and z be positive real numbers. Prove that
+X	+	y
+x+ J(x+y)(x+z)	y+ J(y+z)(y+x)
+
++- ;:;:==:;::z;:::=::::;:: :5	1.
+z + v(z  + x)(z + y)
+
+Solution 55
+Note that
+
+
+
+In fact, squaring both sides of the above inequality yields
+x2 + yz 2'. 2x,/yz,
+which is evident by the AM-GM inequality. Thus
+X	X	VX
+_x_+_v-;.(;=x=+=y:::;=)=(x=+=z::::;=)	_x_+_,jxy_x_y_+_,/xz-=x=z = _..jx_x_+_Jy_y_+_./z_z·
+
+Likewise,
+and
+
+
+
+y	<	Jy 
+y + J(y  + z)(y + x)-	..jx + Jy +
+z	vz
+z + J(z  + x)(z + y)	../x + Jy +z·
+
+Adding the last three inequalities leads to the desired result.
+
+Problem 56
+Find, with proof, all nonzero polynomials /(z) such that
+/(z2) + f(z)f(z + 1) = 0.
+
+Solution 56
+Let f(z) = azm(z - ltg(z), where m and n are non-negative integers and
+
+Zi-=/- 0 and Zi-=/- 1, for i = 1, 2, ... , k. The given condition becomes az2m(z - lt(z + lt(z2 - z1)(z2 - z2) · ·· (z2 - Zk)
+= -a2zm+n(z + 1r(z - lt(z - z1)(z - z2) ··· (z - Zk)
+·(z + 1 - z1)(z + 1 - z2) · ·· (z + 1 - Zk)-
+Thus a = -a2, and/ is nonzero, so a = -1. Since Zi -=/- 1, 1 - z, -=/- 0. Then z2m = zm+n, that is, m = n.
+Thus f is of the form
+-zm(z - l)mg(z).
+Dividing by z2m(z - l)n(z + l)n, the last equation becomes
+g(z2) = g(z)g(z + 1).
+
+
+We claim that g(z) = l. Suppose not; then clearly g must have at least one complex root r =/- 0. Now
+g(r2)	=	g(r)g(r + 1) = 0,
+g(r4)	0,
+g(r8)	=  0,
+
+and so on.
+Since g cannot have infinitely many roots, all its roots must have absolute value 1.
+Now,
+
+
+so l(r - 1)21= 1.
+Clearly, if
+
+then
+
+g((r - 1)2) = g(r - l)g(r) = 0,
+
+
+lrl = l(r - 1)21 = 1,
+
+1 + Jai 1 - Jai}
+r E	2	'	2	.
+
+But r2 is also a root of g, so the same should be true of r2:
+
+2	{ 1 + Jai 1- 	Jai}
+r	E	2	'	2	.
+
+This is absurd. Hence, g cannot have any roots, and g(z) = l. Therefore, the f(z) are all the polynomials of the form -zm(z - 1r for mEN.
+
+Problem 57
+Let f: N-+ N be a function such that f(n+ 1) > f(n) and f(f(n)) = 3n
+for all n.
+Evaluate /(2001).
+Solution 57, Alternative 1 We prove the following lemma. Lemma	For n = 0, l, 2, ... ,
+1. / (3n) = 2 · 3n; and
+2. f (2. 3n) = 3n+1.
+
+
+Proof	We use induction.
+For n = 0, note that /(l) -::pl, otherwise 3 = /(/(1)) = /(1) = 1, which is impossible.  Since f : N -+ N, /(1) > l.  Since f(n + 1) > f(n), f is increasing.  Thus 1 < /(1) < /(/(1)) = 3 or /(1) = 2. Hence
+/(2) = /(/(1)) = 3.
+Suppose that for some positive integer n 2'.'. 1,
+
+
+Then, and
+as desired. This completes the induction.	?
+There are 3n - 1 integers m such that 3n < m < 2 · 3n and there are
+3n - 1 integers m' such that
+
+Since f is an increasing function,
+
+for 0 :'.S m :'.S 3n. Therefore
+           / (2 · 3n + m) = f (f (3n + m)) = 3 (3n + m) for 0 :'.Sm :'.S 3n_ Hence
+/(2001) = f (2 · 36 + 543) = 3 (36 + 543) = 3816.
+
+Solution 57, Alternative 2
+For integer n, let n(a) = a1 a2 · · · at denote the base 3 representation of
+n.
+Using similar inductions as in the first solution, we can prove that
+
+Since 2001(a) = 2202010, /(2001)ca) = 12020100 or
+/(2001) = 1 . 32 + 2. 34 + 2. 36 + 1 . 37 = 3816.
+
+
+Problem 58 [China 1999]
+Let F be the set of all polynomials f(x) with integers coefficients such that f(x) = 1 has at least one integer root.
+For each integer k > l, find mk, the least integer greater than 1 for which there exists an/ E F such that f(x) = mk has exactly k distinct integer roots.
+Solution 58
+Suppose that fk E F satisfies the condition that fk(x) = mk has exactly k distinct integer roots, and let a be an integer such that fk(a) = l. Let 9k be the polynomial in F such that
+9k(x) = fk(x + a)
+for all x.
+Now 9k(0) = fk(a) = 1, so the constant term of 9k is 1. Now 9k(x) = mk
+has exactly k distinct integer roots r1, r2, ... , rk, so we can write
+
+where qk(x) is an integer polynomial.
+Note that r1r2 ···Tk divides the constant term of 9k(x) - mk, which equals 1 - mk,
+Since mk > 1, 1 - mk cannot be 0,
+
+Now r1, r2,: • · rk  are distinct integers, and none of them is 0, so
+
+hence
+
+This value of mk is attained by
+9k(x)	=	(-lt;')(x-l)(x+l)(x-2)(x+2)
+...(x + (-1trk/2l) + lk/2J!. rk/21! + 1.
+
+Thus,
+
+
+mk = lk/2J!. rk/21, + 1.
+
+
+Problem 59
+Let x1 = 2 and
+
+
+for n	l.
+Prove that
+
+
+
+1	1	1	1	1
+l---2--;;-=r<-+-+···+-<1--n2 ·
+
+2	X1	X2	Xn	2
+Solution 59
+Since x1 = 2 and
+
+Xn is increasing. Then Xn - 1 -/- 0. Hence
+
+
+
+
+
+
+1	1	1	1
+
+
+
+or
+
+
+which implies that
+
+1	1	1
+Xn+I - 1'
+
+1	1	1	1
+-+-+ ..·+-=l----
+x1X2	Xn	Xn+I-	1
+Thus it suffices to prove that, for n EN,
+1	1	1
+1 -	n-1 < 1 -	l	< 1 -	2n •
+Xn+I-
+
+or
+2n-l	n
+2	Xn+l -  1	2  .
+
+
+(1)
+
+We use induction to prove (1).
+For n = 1, x2 = x - x1 + 1 = 3 and (1) becomes 2 < 3 < 4, which is true.
+Now suppose that (1) is true for some positive integer n = k, i.e.,
+
+
+
+
+Then for n = k + 1, the lower bound of (1) follows from
+
+(2)
+
+
+
+
+
+Since Xk+i is an integer, the lower bound of (2) implies that
+
+
+from which it follows that
+
+as desired.
+This finishes the induction and we are done.
+
+Problem 60 (Iran 1997]
+Suppose that / : R+ -+ R+ is a decreasing function such that for all
+x,y ER+,
+f(x + y) + f(f(x) + f(y)) = f(f(x + f(y)) + f(y + f(x))).
+Prove that f(f(x)) = x.
+Solution 60
+Setting y = x gives
+/(2x) + /(2/(x)) = /(2/(x + f(x))).
+Replacing x with f(x) yields
+/(2/(x)) + /(2/(/(x))) = /(2/(/(x) + f(f(x)))).
+Subtracting these two equations gives
+/(2/(/(x))) - /(2x) = /(2/(/(x) + f(f(x)))) - /(2/(x + f(x))).
+If f(f(x)) > x, the left hand side of this equa,tion is negative, so
+J(f(x) + f(J(x)) > J(x + f(x))
+
+and
+
+
+f(x) + J(f(x)) < x + f(x),
+
+a contradiction. A similar contradiction occurs if f(f(x)) < x.
+Thus f(f(x)) = x as desired.
+Comment: In the original formulation / was meant to be a continous function. The solution above shows that this condition is not necessary.
+
+
+Problem 61 [Nordic Contest 1998]
+Find all functions / : Q) -+ Q) such that
+f(x + y) + f(x - y) = 2/(x) + 2/(y)
+for all x, y E Q).
+Solution 61
+The only such functions are f(x) = kx2 for rational k. Any such function works, since
+f(x + y) + f(x - y) = k(x + y)2 + k(x - y)2
+= kx2 + 2kxy + ky2 + kx2 -  2kxy + ky2
+= 2kx2 + 2ky2
+= 2/(x) + 2/(y).
+Now suppose f is any function satisfying
+J(x + y) + f(x - y) = 2/(x) + 2/(y).
+Then letting x = y = 0 gives 2/(0) = 4/ (0), so /(0) = 0.
+We will prove by induction that J(nz) = n2 f(z) for any positive integer
+n and any rational number z.
+The claim holds for n = 0 and n = 1; let n	2 and suppose the claim holds for n - 1 and n - 2.
+Then letting x = (n - l)z, y = z in the given equation we obtain
+f(nz) + f((n - 2)z) = f((n - l)z + z) + f((n - l)z - z)
+= 2/((n - l)z) + 2/(z)
+so
+f(nz) = 2/((n - l)z) + 2/(z) - J((n - 2)z)
+= 2(n - 1)2 f(z) + 2/(z) - (n - 2)2 f(z)
+= (2n2 -  4n + 2 + 2 - n2 + 4n - 4)/(z)
+= n2f(z)
+and the claim holds by induction.
+Letting x = 0 in the given equation gives
+f(y) + f(-y) = 2/(0) + 2/(y) = 2/(y),
+so f(-y) = f(y) for all rational y; thus f(nz) = n2 f(z) for all integers
+n.
+
+
+Now let k = f(l); then for any rational number x = p/q,
+q2 f(x) = f(qx) = f(p) = p2 f(l) = kp2
+
+so
+f ( x) = kp2 / q2 = kx2.
+Thus the functions f(x) = kx2, k E Q), are the only solutions.
+Problem 62 [Korean Mathematics Competition 2000]
+Let3/4< a< l.
+Prove that the equation
+x3(x + 1) = (x + a)(2x + a)
+has four distinct real solutions and find these solutions in explicit form.
+Solution 62
+Look at the given equation as a quadratic equation in a:
+a2 + 3xa + 2x2 -  x3 -  x4 = 0.
+The discriminant of this equation is
+9x2 -  8x2 + 4x3 + 4x4 = (x + 2x2)2•
+
+Thus
+
+
+a= -3x ± 2(x + 2x2)
+
+	
+
+The first choice a = -x +x2 yields the quadratic equation x2 - x - a = 0,
+whose solutions are
+(1 ± v'f+Ta}
+X=	2	.
+The second choice a = - 2x - x2 yields the quadratic equation
+x2 +2x+a = 0,
+
+whose solutions are
+
+The inequalities
+
+
+-l±Jf=a.
+
+
+-1-	Jf=a < -1 + v'T=a < l  -v'1+4a < 1 + v'1+4a
+2	2
+show that the four solutions are distinct.
+
+
+
+Indeed
+
+
+
+reduces to
+
+
+
+1 - 1 +4a
++vi-a<--2--
+
+2v'f=a < 3 - 1 + 4a
+
+which is equivalent to
+
+6 1 + 4a < 6 + 8a,
+
+or 3a < 4a2, which is evident.
+
+Problem 63 (Tournament of Towns 1997)
+Let a, b, and c be positive real numbers such that abc = l.
+Prove that
+--- 1	+ --- 1	+ --- 1	< l.
+a+b+l	b+c+l	c+a+l-
+Solution 63, Alternative 1
+Setting x = a + b, y = b + c and z = c + a, the inequality becomes
+1	1	1
+--+--+--<1
+x+ly+lz+- l'
+
+i.e.
+
+
+i.e.
+
+
+1	1	X
+--+--<-­
+y+zl +- lx+l'
+
+
+
+i.e.
+
+i.e.
+
+i.e.
+
+i.e.
+
+_y_+_z_+_2_< _x_
+(y + l)(z + 1)-	x + l'
+
+xy + xz + 2x + y + z + 2	xyz + xy + xz + x, x + y + z + 2	xyz,
+2(a + b + c) + 2	(a+ b)(b + c)(c + a),
+
+2(a + b + c)	a2b + ab2 + b2c+ bc2 + c2a ,+ ca2.
+
+By the AM-GM inequality,
+(a2b+a2c + 1) 2: 3	= 3a.
+
+
+Likewise,
+
+
+and
+
+(c2a + c2b+ 1)	3c.
+
+Therefore we only need to prove that
+2(a + b + c) + 3 :5 3(a + b + c),
+
+
+i.e.
+
+
+3 :5 a+ b + c,
+
+which is evident from AM-GM inequality and abc = l.
+Solution 63, Alternative 2
+Let a= ar, b =bf, c =cf. Then a1b1c1 = 1. Note that which implies that
+
+Therefore,
+
+
+1	1
+
+
+a+b+l
+
+
+
+
+
+
+
+
+
+
+Likewise,
+
+
+and
+
+<		1	
+
+
+
+
+  1  <	b1	 .
+c + a + l-	a1 + b1 + c1
+
+Adding the three inequalities yields the desired result.
+
+
+Problem 64 (AIME 1988)
+Find all functions f, defined on the set of ordered pairs of positive inte­ gers, satisfying the following properties:
+f(x, x) = x,  f(x, y) = f(y, x), (x + y)f(x, y) = yf(x, x + y).
+Solution 64
+We claim that f(x, y) = lcm(x, y), the least common multiple of x and
+y. It is clear that
+
+
+and
+
+lcm(x, x) = x
+lcm(x, y) = lcm(y, x).
+
+Note that	xy
+
+
+
+and
+
+lcm(x, y) = gcd  (
+
+x,y)
+
+gcd (x, y) = gcd (x, x + y),
+where gcd (u, v) denotes the greatest common <;1.ivisor of u and v. Then
+(x + y)lcm(x, y)	=	(x + y) ·	xy
+gcd (x, y)
+
+= Y·
+
+x(x + y)
+gcd (x, x + y)
+
+
+=	ylcm(x, x + y).
+Now we prove that there is only one function satisfying the conditions of the problem.
+For the sake of contradiction, assume that there is another function
+g(x, y) also satisfying the given conditions.
+Let S be the set of all pairs of positive integers (x, y) such that f(x, y) -1- g( x, y), and let (m, n) be such a pair with minimal sum m + n. It is clear that m -/:- n, otherwise
+f(m, n) = f(m, m) = m = g(m, m) = g(m, n).
+By symmetry (f(x, y) = f(y, x)), we can assume that n - m > 0. Note that
+nf(m,n -m)	[m + (n - m)]f(m, n - m)
+(n - m)f(m,m + (n - m))
+(n - m)f(m, n)
+
+
+
+or	n-m
+f(m, n - m) = -- n
+
+
+· f(m, n).
+
+Likewise,
+
+g(m, n - m} = -n--m
+n
+
+
+· g(m, n).
+
+Since f(m, n)=/- g(m, n), f(m, n - m) =/- g(m, n - m). Thus (m,n-m) ES.
+But (m, n - m) has a smaller sum m + (n - m) = n, a contradiction.
+Therefore our assumption is wrong and f(x, y) = Icm(x, y) is the only solution.
+
+Problem 65 [Romania 1990]
+Consider n complex numbers zk, such that IZk I ::; 1, k = l, 2, ... , n.
+Prove that there exist e1, e2, ...  , en E { -1, 1} such that, for any m ::; n,
+
+
+Solution 65
+Call a finite sequence of complex numbers each with absolute value not exceeding 1 a green sequence.
+Call a green sequence {zk}k=I happy if it has a friend sequence {ek}k=I
+of ls and - ls, satisfying the condition of the problem.
+We will prove by induction on n that all green sequences are happy. For n = 2, this claim is obviously true.
+Suppose this claim is true when n equals some number m. For the case of n = m + 1, think of the Zk as points in the complex plane.
+For each k, let /1,k be the line through the origin and the point corre­ sponding to Zk- Among the lines £1, £2, £3, some two are within 60° of each other; suppose they are £0 and £13, with the leftover one being /1,,.r·
+The  fact that /1,0 and £13 are withjn 60° of each other implies that there exists some number er; E { -1, 1} such that z' = z0 + e13z13 has absolute value at most 1.
+Now the sequence z', z-y, z4, z5, ••• , Zk+I is a k-term green sequence, so, by the induction hypothesis, it must be happy; let e', e-y, e4, e5, ••• , ek+I be its friend.
+Let e0 = 1.
+Then the sequence {ei} } is the friend of { zi} }. Induction is now complete.
+
+
+Problem 66 [ARML 1997]
+Find a triple of rational numbers (a, b, c) such that
+
+
+Solution 66
+Let x = V ?-'2 2 --1 and y = ?-12. Then y3 = 2 and x =  y -  l. Note that
+1 = y3 -  1 = (y - l)(y2 + y + l),
+
+
+and
+
+
+2	1	3y2 + 3y + 3
+y +y+	=	3
+
+y3 + 3y2 + 3y + 1
+3
+
+(y + 1)3
+3
+
+which implies that
+1	3
+
+x3 =y -	l = y2+ y  + l
+or
+x=?--'-3 .
+y+l
+
+(y + 1)3
+
+
+
+
+(1)
+
+On the other hand,
+
+
+3 = y3 + 1 = (y + l)(y2 -  y + l)
+
+from which it follows that
+
+
+1	y2 -  y + l
+y+l	3
+
+(2)
+
+Combining (1) and (2), we obtain
+
+Consequently,
+
+is a desired triple.
+
+
+Problem 67 [Romania 1984]
+Find the minimum of
+
+where x1, x2, ... , Xn are real numbers in the interval (1/4, 1).
+Solution 67
+Since loga x is a decreasing function of x when O < a < 1 and, since
+(x - 1/2)2	0 implies x2	x - 1/4, we have
+
+It follows that
+
+
+> 2 ( -log-X+2	-lo-g +X3  ···+log-X-n -+log-x­1)
+log X1	log X2	log Xn-1	log Xn
+
+2n
+by the AM-GM inequality.
+Equalities hold if and only if
+
+
+
+Problem 68 [AIME 1984]
+Determine x2 + y2 + z2 + w2 if
+x2	y2	z2	w2
+22 - 12 + 22 - 32 + 22 - 52 + 22 - 72 = l,
+x2	y2	z2	w2
+42 - 12 + 42 - 32 + 42 - 52 + 42 - 72 = l,
+x2	y2	z2	w2
+62 - 12 + 62 - 32 + 62 - 52 + 62 - 72 = l,
+x2	y2	z2	w2
+82 - 12 + 82 - 32 + 82 - 52 + 82 - 72 = 1.
+
+
+Solution 68
+The claim that the given system of equations is satisfied by x2, y2, z2, and w2 is equivalent to claiming that
+
+is satisfied by t = 4, 16, 36, and 64.
+Multiplying to clear fractions, we find that for all values oft for which it is defined (i.e., t-/= 1, 9, 25, and 49), (1) is equivalent to the polynomial equation
+
+
+where
+
+P(t) = 0,
+
+P(t) = (t - l)(t - 9)(t - 25)(t - 49)
+-x2(t - 9)(t - 25)(t - 49) - y2(t - l)(t - 25)(t - 49)
+-z2(t - l)(t - 9)(t - 49) - w2(t - l)(t - 9)(t - 25).
+
+Since degP(t) = 4, P(t) = 0 has exactly four zeros t = 4, 16,36, and 64, i.e.,
+P(t) = (t - 4)(t - 16)(t - 36)(t - 64).
+Comparing the coefficients of t3 in the two expressions of P(t) yields 1 + 9 + 25 + 49 + x2 + y2 + z2 + w2 = 4 + 16 + 36 + 64,
+from which it follows that
+x2 + Y2 + z2 + w2 = 36.
+
+Problem 69 [Balkan 1997]
+Find all functions f : IR _, IR such that
+f(xf(x) + f(y)) = (f(x))2 + y
+for all x, y E R
+Solution 69
+Let f(O) = a. Setting x = 0 in the given condition yields
+f(f(y)) = a2 + Y,
+for all y E IR.
+Since the range of a2+y consists of all real numbers, f must be surjective.
+
+
+Thus there exists b E JR such that f(b) = 0.
+Setting x = b in the given condition yields
+f(f(y)) = f(bf(b) + f(y)) = (f(b))2 + y = y,
+for all y E JR. It follows that, for all x, y E JR,
+(f(x))2 + Y = f(xf(x) + f(y))
+= J[f(f(x))f(x) + J(y)] = f[f(x)f(f(x)) +y]
+= f(f(x))2 + Y = x2 + y,
+
+that is,
+
+
+It is clear that f(x) = x is a function satisfying the given condition.
+
+
+(1)
+
+Suppose that f(x) -I x. Then there exists some nonzero real number c such that /(c) = -c. Setting x = cf(c) + f(y) in (1) yields
+        [f(cf(c) + /(y))]2 = [c/(c) + /(y)]2 = [-c2 + /(y)]2, for all y E JR, and, setting x = c in the given condition yields
+f(cf(c) + f(y)) = (f(c))2+ y = c2 + y,
+for all y E JR.
+Note that (f(y))2 = y2. It follows that
+[-c2 + /(y)]2 = (c2 + y)2,
+or
+f(y) = -y,
+for all y E JR, a function which satisfies the given condition.
+Therefore the only functions to satisfy the given condition are f(x) = x
+or f(x) = -x,  for x E JR.
+Problem 70
+The numbers 1000, 1001, • • •, 2999 have been written on a board.
+Each time, one is allowed to erase two numbers, say, a and b, and replace them by the number 1/2 min(a, b).
+After 1999 such operations, one obtains exactly one number c on the board.
+Prove that c < 1.
+
+
+Solution 70
+By symmetry, we may assume a :::; b. Then
+min(a, b) = i•
+
+We have
+
+
+1	1	1
+ +b:::;G)'
+
+
+from which it follows that the sum of the reciprocals of all the numbers on the board is nondecreasing (i.e., the sum is a monovariant).
+At the beginning this sum is
+
+where 1/c is the sum at the end. Note that, for 1 :::; k :::; 999,
+1	1	4000	4000	1
+2000 - k+ 2000 + k=	20002 -  k2>  20002=	1000·
+Rearranging terms in S yields
+
+or c < 1, as desired.
+
+Problem 71 [Bulgaria 1998)
+Let a1, a2, ... , an be real numbers, not all zero.
+Prove that the equation
+
+
+has at most one nonzero real root.
+Solution 71
+Notice that fi(x) = 1 + a,x is concave. Hence
+
+
+
+is concave.
+Since f'(x) exists, there can be at most one point on the curve y = l(x)
+with derivative 0.
+Suppose there is more than one nonzero root.
+Since x = 0 is also a root, we have three real roots X1 < X2 < X3. Ap­ plying the Mean-Value theorem to l(x) on intervals [x1, x2] and [x2, x3],
+we can find two distinct points on the curve with derivative 0, a contra­ diction.
+Therefore, our assumption is wrong and there can be at most one nonzero real root for the equation l(x) = n.
+Problem 72 [Turkey 1998]
+Let {an} be the sequence of real numbers defined by a1 = t and
+an+l = 4an(l - an)
+for n 2'.: 1.
+For how many distinct values oft  do we have a1ggs = O?
+Solution 72, Alternative 1
+Let l(x) = 4x(l - x). Observe that
+l-1(0) = {0, 1},	l-1(1) = {1/2},	l-1([0,1]) = [0, 1],
+and l{Y: l(y) = x}I = 2 for all x E [0, 1).
+Let An= {x E JR: r(x) = O}; then
+An+l	{x E JRr: +1(x) = 0}
+{ X E JR : r (f ( X)) = 0} = { X E JR : I ( X) E An}.
+We claim that for all n 2'. 1, An C [0, 1], 1 E An, and
+IAnl = 2n-l + l.
+
+
+For n = 1, we have
+
+
+A1 = {x E JR I l(x) = 0} = {0, 1},
+
+and the claims hold.
+Now suppose n 2'. 1 and An C [0, 1], 1 E An, and IAnl = 2n-l + 1. Then
+XE An+l ::::} l(x) E An C [0, 1] ::::} x E [0, 1],
+so An+i c [0, l].
+
+
+Since /(0) = /(1) = 0, we have r+i(l) = 0 for all n	l, so 1 E An+l·
+Now we have
+
+IAn+l I	l{x: f(x) E An}I
+=	L l{x: f(x) = a}I
+l{x: f(x) = l}I + L l{x: f(x) = a}I
+aEAn
+aE[O,l)
+l+	L 2
+aEAn
+aE[O,l)
+1 + 2(1Anl - 1)
+1 + 2(2n-l + 1 - 1)
+2n + 1.
+Thus the claim holds by induction.
+Finally, a199s = 0 if and only if /1997(t) = 0, so there are 21996 + 1 such values oft.
+Solution 72, Alternative 2
+As in the previous solution, observe that if f(x) E [0, 1] then x E [0, 1],
+so if a199s = 0 we must have t E [0, 1].
+Now choose 0 E [O, 1r /2] such that sin 0 = It,.
+Observe that for any </J E JR,
+      /(sin2¢) = 4sin2</J (1 - sin2¢) = 4sin2¢cos2</J = sin22¢; since a1 = sin20, it foliows that
+a2 = sin220, a3 = sin240, ... , a1998 = sin2219970.
+
+Therefore
+
+
+
+a199s = 0
+
+
+
+
+
+
+{:::::::>
+
+
+
+sin 219970 = 0
+
+
+
+
+
+
+{:::::::>
+
+
+
+k1r
+0	21997
+
+
+for some k E Z.
+Thus the values oft  which give a1998 = 0 are
+
+k E Z, giving 21996 + 1 such values of t.
+
+
+Problem 73 [IMO 1997 short list]
+(a) Do there exist functions f : JR -+ JR and g : JR -+ JR such that
+
+
+
+for all x E JR?
+
+f(g(x)) = x2
+
+and	g(f(x)) = x3
+
+(b) Do there exist functions f : JR -+ JR and g : JR -+ JR such that
+
+
+
+for all x E JR?
+Solution 73
+
+f(g(x)) = x2
+
+and	g(f(x)) = x4
+
+(a) The conditions imply that f(x3) = f(g(f(x))) = [f(x)]2, whence
+XE {-1, 0, 1} ==}	x3 = X ==}	f(x) = [f(x)]2 ==}	f(x) E {0, l}.
+Thus, there exist different a, b E {-1, 0, 1} such that f(a) = f(b).
+But then a3 = g(f(a)) = g(f(b)) = b3, a contradiction. Therefore, the desired functions f and g do not exist.
+(b) Let
+
+g(x)= {
+
+lxlln lxl	if lxl 2: 1
+lxl-lnlxl	if0<lxl<l
+0	if X = 0.
+
+Note that g is even and lal = lbl whenever g(a) = g(b); thus, we are allowed to define f as an even function such that
+f(x) = y2, where y is such that g(±y) = x.
+We claim that the functions f, g described above satisfy the condi­ tions of the problem.
+It is clear from the definition off that f(g(x)) = x2. Now let y = vT[x).
+Then g(y) = x and
+g(f(x))	=	g(y2)
+
+(y2)ln(y2=)
+{	(y2)-ln(y2=)
+0
+
+y4lny=	(ylny)4
+(y-lny)4
+
+if y 2: 1
+if0<y<l if y = 0
+
+=	[g(y)]4
+
+
+Problem 74 [Weichao Wu]
+Let O < a1 :::; a2 · · · :::; an, 0 < bi :::; b2 ··· :::; bn be real numbers such that
+2 I:b;.
+i=l	i=l
+
+Suppose that there exists 1 :::; k :::; n such that bi :::; a, for 1 :::; i :::; k and
+b; 2 a, for i > k.
+Prove that
+
+Solution 74, Alternative 1
+We define two new sequences. For i = 1, 2, ... , n, let
+
+Then or
+Therefore
+
+Applying the AM-GM inequality yields
+
+from which the desired result follows.
+Solution 74, Alternative 2
+We define two new sequences. For i = 1, 2, ... , n, let
+
+
+
+Then
+
+
+b + b; +·.. + b -S: nak.
+
+Note that, for cy(x - y)(y + c) 2 0,
+
+- 2 -X++,c
+
+
+x 2 y and c 2 O;
+
+y	y	C
+
+
+Setting x = ai, y = bi, and c = ak - ai, the above inequality implies that
+ai/bi	aUbi, for i = 1, 2, ... , n. Thus,
+           (2)
+Using (1) and the AM-GM inequality yields
+
+
+
+or
+
+
+It is clear that the desired result follows from (2) and (3).
+
+
+(3)
+
+
+Problem 75
+Given eight non-zero real numbers a1, a2, ···,as, prove that at least one of the following six numbers: a1a3 + a2a4, a1as + a2a6, a1a7 + a2as, a3as + a4a6, a3a7 + a4as, a5a7 + a6as is non-negative.
+Solution 75 [Moscow Olympiad 1978]
+First, we introduce some basic knowledge of vector operations. Let u = [a, b] and v = [m, n] be two vectors.
+Define their dot product u · v = am + bn.
+It is easy to check that
+(i) v·v = m2+n2 = lvl2, that is, the dot product of vector with itself is the square of the magnitude of v and v · v	0 with equality if
+and only if v = [O, OJ;
+(ii) U · V = V · Uj
+(iii) u · (v + w) = u · v + u · w, where w is a vector;
+(iv) (cu)• v = c(u • v), where c is a scalar.
+When vectors u and v are placed tail-by-tail at the origin 0, let A and
+B be the tips of u and v, respectively. Then AB = v - u.
+Let LAOB = 0.
+Applying the law of cosines to triangle AO B yields
+lv-ul2	=	AB2
+= OA2 +OB2 - 20A- 0Bcos0
+lul2 + lvl2 - 2lullvl cos 0.
+
+
+It follows that
+(v - u) • (v - u) = u · u + v · v - 2lullvl cos 0,
+or
+U·V
+cos0= lullvl'
+Consequently, if O:5 0:5 90°, u • v 2". 0.
+Consider vectors v1  = [a1,a2],v2 = [a3,a4],v3 = [a5,a5], and v4 =
+[a1, as],
+Note that the numbers a1a3 +a2a4, a1a5 +a2a6, a1a1 +a2as, a3a5 +a4a5, a3a7 + a4as, a5a7 + a5as are all the dot products of distinct vectors v1 and VJ,
+Since there are four vectors, when placed tail-by-tail at the origin, at least two of them form a non-obtuse angle, which in turn implies the desired result.
+
+Problem 76 [IMO 1996 short list]
+Let a, band c be positive real numbers such that abc = l. Prove that
+
+
+
+
+Solution 76
+We have because
+
+k	ro	l
++ + + + +k+ + +ro:5.
+
+
+
+
+(a3 - b3)(a2 - b2) 2". 0,
+
+with equality if and only if a = b. Hence
+
+	ab	
+a5 +b5 + ab  :5
+
+=
+
+ab
+a2b2(a + b) + ab
+1
+ab(a + b) + 1 abc ab(a+b+c)
+C
+
+
+
+
+
+Likewise,
+
+
+be	<	a
+b5 +c5 + be-	a + b +c
+
+
+
+and
+
+
+ca	b
+c5 +a5+ca a+b+c·
+
+Adding the last three inequalities leads to the desired result. Equality holds if and only if a = b = c = l.
+Comment:	Please compare the solution to this problem with the second solution of problem 13 in this chapter.
+
+Problem 77 [Czech-Slovak match 1997]
+Find all functions / : JR. ---. JR. such that the equality
+f(f(x) + y) = f(x2 - y) + 4/(x)y
+holds for all pairs of real numbers (x, y).
+Solution 77
+Clearly, f(x) = x2 satisfies the functional equation.
+Now assume that there is a nonzero value a such that f(a) f=. a2• Let y =x2 -/(x) in the functional equation to find that
+
+1(f(x)/x2) =!(f(x)/x2) +2f(x)(x2-f(x))
+
+or 0 = 2/(x)(x2 -  f(x)). Thus, for each x, either f(x) = 0 or f(x) = x2. In both cases, /(0) = 0.
+Setting x = a, it follows from above that either f(a) = 0 or f(a) = 0 or
+f(a) = a2•
+The latter is false, so f(a) = 0.
+Now, let x = 0 and then x = a in the functional equation to find that
+f(y) = f(-y),	f(y) = f(a2 - y)
+
+
+and so
+
+
+f(y) = f(-y) = f(a2 + y);
+
+that is, the function is periodic with nonzero period a2.
+Let y = a2 in the original functional equation to obtain
+f(f(x)) = f(f(x) +a2) = f(x2 - a2) + 4a2 f(x) = f(x2) + 4a2 f(x).
+However, putting y = 0 in the functional equation gives f(f(x)) = f(x2)
+for all x.
+
+
+Thus, 4a2 f(x) = 0 for all x. Since a is nonzero, f(x) = 0 for all x.
+Therefore, either f(x) = x2 or f(x) = 0.
+
+Problem 78 [Kvant]
+Solve the system of equations:
+3x-y
+x+ 2	2  =3
+X
+_ x+3y _0
+Y	x2 + y2 -	·
+
+Solution 78, Alternative 1
+Multiplying the second equation by i and adding it to the first equation yields
+.	(3x - y) - (x + 3y)i _ 3
+X  +y
+or
+3(x - yi) _ i(x - yi) _ 3
+X  +y	X  +y
+
+Let z = x + yi. Then
+
+
+1	X -yi 
+z	x2 + y2.
+
+Thus the last equation becomes
+z+3--i - =3,
+z
+or
+z2 -  3z + (3 - i) = 0.
+
+Hence		
+3 ± J-3 +4i
+
+
+3±(1+2i)
+
+
+2	2
+that is, (x,y) = (2, 1) or (x,y) = (1, -1).
+Solution 78, Alternative 2
+Multiplying the first equation by y, the second by x, and adding up yields
+2	(3x - y)y - (x + 3y)x _ 3
+xy +	x2+ y2	-	y'
+or 2xy - 1 = 3y. It follows that y-/- 0 and
+3y + 1
+x= -
+
+
+Substituting this into the second equation of the given system gives
+
+or
+4y4 -  3y2 -  1 = 0.
+It follows that y2 = 1 and that the solutions to the system are (2, 1) and
+(1, -1).
+
+Problem 79 [China 1995]
+Mr. Fat and Mr. Taf play a game with a polynomial of degree at least 4:
+X2n + _X2n-l + _X2n-2 +... + _X + l.
+They fill in real numbers to empty spaces in turn.
+If the resulting polynomial has no real root, Mr. Fat wins; otherwise, Mr. Taf wins.
+If Mr. Fat goes first, who has a winning strategy?
+Solution 79
+Mr. Taf has a winning strategy.
+We say a blank space is odd (even) if it is the coefficient of an odd (even) power of x.
+First Mr. Taf will fill in arbitrary real numbers into one of the remaining even spaces, if there are any.
+Since there are only n - 1 even spaces, there will be at least one odd space left after 2n - 3 plays, that is, the given polynomial becomes
+p(x) = q(x) + _xs + _x2t-1,
+where s and 2t - 1 are distinct positive integers and q(x) is a fixed polynomial.
+We claim that there is a real number a such that
+p(x) = q(x) + axs + _x2t-1
+will always have a real root regardless of the coefficient of x2t-1. Then Mr. Taf can simply fill in a in front of X8 and win the game.
+
+
+Now we prove our claim. Let b be the coefficient of x2t-l in p(x). Note that
+1
+22t-l p(2) + p( -1)
+= ( 22;-1 q(2) + 2s-2t+1a + b) + [q(-1) + (-l)sa - b]
+
+= ( 22;-1 q(2) + q(-1)) + a[2s-2t+l + (-l)s].
+
+Since s-/:- 2t-1, 2s-2t+l + (-1)5-/:- 0.
+Thus
+1
+ q(2) +q(-1)
+a=	2s-2t+l + (-l)s
+is well defined such that a is independent of b and
+1
+22t-l p(2) + p(-1) = 0.
+
+It follows that either p( -1) = p(2) = 0 or p( - l) and p(2) have different signs, which implies that there is a real root of p( x) in between -1 and 2.
+In either ca.se, p( x) has a real root regardless of the coefficient of x2t- 1, as claimed.
+Our proof is thus complete.
+
+Problem 80 [IMO 1997 short list]
+Find all positive integers k for which the following statement is true: if
+F(x) is a polynomial with integer coefficients satisfying the condition
+         0 F(c) k	for	c=0,l, ... ,k+l, then F(0) = F(l) = ··· = F(k + 1).
+Solution 80
+The statement is true if and only if k 2'. 4.
+We start by proving that it does hold for each k 2'. 4.
+Consider any polynomial F(x) with integer coefficients satisfying the inequality 0	F(c)	k for each c E {0, 1, ... , k + 1}.
+Note first that F(k + 1) = F(0), since F(k + 1) - F(0) is a multiple of
+k + l not exceeding k in absolute value.
+Hence
+F(x) - F(0) = x(x - k - l)G(x),
+
+
+where G(x) is a polynomial with integer coefficients. Consequently,
+k	IF(c) - F(0)I = c(k + 1 - c)IG(c)I
+for each c E {1, 2, ... , k}.
+The equality c(k + 1- c) > k holds for each c E {2, 3, ... , k - 1}, as it is equivalent to (c - l)(k - c) > 0.
+Note that the set {2, 3, ... , k - 1} is not empty if k	3, and for any c in this set, (1) implies that IG(c)I < 1.
+Since G(c) is an integer, G(c) = 0. Thus
+F(x) - F(0) = x(x - 2)(x - 3) ·· · (x - k + l)(x - k - l)H(x),	(2)
+where H(x) is a polynomial with integer coefficients.
+To complete the proof of our claim, it remains to show that H(l) =
+H(k) = 0.
+Note that for c = 1 and c = k, (2) implies that
+              k  IF(c) - F(0)I = (k - 2)! · k · IH(c)I­ For k  4, (k - 2)! > 1.
+Hence H(c) = 0.
+We established that the statement in the question holds for any k  4.
+But the proof also provides information for the smaller values of k as well.
+More exactly, if F(x) satisfies the given condition then 0 and k + 1 are roots of F(x) and F(0) for any k  1; and if k  3 then 2 must also be a root of F(x) - F(0).
+Taking this into account, it is not hard to find the following counterex­ amples:
+F(x) = x(2 -  x)	for k = 1,
+F(x) = x(3 - x)	for k = 2,
+F(x) = x(4 - x)(x - 2)2	fork= 3.
+
+
+Problem 81 [Korean Mathematics Competition 2001]
+The Fibonacci sequence Fn is given by
+
+
+
+Prove that
+
+
+for all n 2': 2.
+Solution 81
+Note that
+
+
+whence
+
+for all n 2': 2.
+
+F,	_ Ffn+2 + Ffn-2 _  p,3
+2n-	g	2n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1)
+
+Setting a= 3F2n, b = -F2n+2, and c = -F2n-2 in the algebraic identity
+a3 + b3 + c3 -  3abc = (a+  b + c)(a2 + b2 + c2 -  ab - be - ca)
+
+gives
+
+
+27Fin - Fin+2 - Fin-2 - 9F2n+2F2nF2n-2 = 0.
+
+Applying (1) twice gives
+
+F2n+2F2n-2 - Fin= (3F2n - F2n-2)F2n-2 - Fin
+= F2n(3F2n-2 - F2n) - Fin-2 = F2nF2n-4 - Fin-2
+= ··· = F5F2 - Fl = -1.
+The desired result follows from
+
+
+
+Problem 82 [Romania 1998]
+Find all functions u : JR --t  JR for which there exists a strictly monotonic function f : JR --t JR such that
+f(x + y) = f(x)u(y) + f(y)
+for all x, y E JR.
+Solution 82
+The solutions are u(x) = ax, a E JR+.
+To see that these work, take f(x) = x for a= 1.
+If a -:j; l, take f(x) = ax - l; then
+f(x + y) = ax+y - l = (ax - l)aY + aY - l =  f(x)u(y) + f(y)
+for all x, y E JR.
+Now suppose u : JR --t JR, f : JR --t JR are functions for which f is strictly monotonic and f(x + y) = f(x)u(y) + f(y) for all x, y E JR.
+We must show that u is of the form u(x) = ax for some a E JR+. First, 'letting y = 0, we obtain f(x) = f(x)u(0) + f(0) for all x E JR.
+Thus, u(0) # 1 would imply f(x) = f(0)/(l - u(0)) for all x, which would contradict the fact that f is strictly monotonic, so we must have
+u(0) = 1 and f (0) = 0.
+Then f(x) # 0 for all x # 0.
+Next, we have
+f(x)u(y) + f(y) = f(x + y) = f(x) + f(y)u(x),
+or
+f(x)(u(y) - 1) = f(y)(u(x) - 1)
+
+for all x, y E JR. That is,
+
+
+
+for all xy # 0.
+
+
+
+u(x) - 1
+f(x)
+
+
+
+u(y) - 1
+f(y)
+
+It follows that there exists CE JR such that
+u(x) - 1= C
+f(x)
+for all x # 0.
+Thus, u(x) = l+Cf(x) for x # O; since u(0) = 1, f(0) = 0, this equation also holds for x = 0.
+
+
+If C = 0, then u(x) = 1 for all x, and we are done.
+Otherwise, observe
+
+u(x+y)	l+Cf(x+y)
+1+ Cf(x)u(y) + Cf(y)
+u(y) + C f(x)u(y)
+=	u(x)u(y)
+for all x, y E JR.
+Thus u(nx) = u(x)n for all n E Z, x E JR.
+Since u(x) = 1 + C f(x) for all x, u is strictly monotonic, and u(-x) =
+l/u(x) for all x, so u(x) > 0 for all x as u(0) = l.
+Let a= u(l) > O; then u(n) = an for all n E N, and
+u(p/q) = (u(p))1/q = ap/q
+for all p E Z, q E N, so u(x) = ax for all x E Q.
+Since u is monotonic and the rationals are dense in JR, we have u(x) = ax
+for all XE JR.
+Thus all solutions are of the form u( x) = ax, a E JR+.
+Problem 83 [China 1986)
+Let z1, z2, ... , Zn be complex numbers such that
+
+Prove that there exists a subset S of {z1, z2, ...  , Zn} such that
+
+
+Solution 83, Alternative 1
+Let £1, £2, and £3 be three rays from origin that form angles of 60°, 180°, and 300°, respectively, with the positive x-axis.
+For i = 1, 2, 3, let 'Ri denote the region between ii and ii+l (here £4 = £1),
+including the rayh	Then
+
+By the Pigeonhole Principle, at least one of the above sums is not less than 1/3.
+
+
+Say it's 'R3 (otherwise, we apply a rotation, which does not effect the magnitude of a complex number). Let Zk = Xk + iYk· Then for Zk E 'R3, Xk = lxkl lzkl/2.
+Consequently,
+
+as desired.
+Solution 83, Alternative 2
+We prove a stronger statement: there is subset S of {z1, z2, ..., Zn} such that
+
+
+For 1  k  n, let Zk = Xk + iyk, Then
+1  =	lz1l+lz2l+ ..·+lznl
+<	(lx1I + IY1I) + (Jx2I + IY2I) +···+(lxnl + IYnD
+L lxkl + L lxkl + L IYkl + L IYkl•
+Yk<O
+
+By the Pigeonhole Principle, at least one of the above sums is not less than 1/4. By symmetry, we may assume that
+
+Consequently,
+
+Comment:	Using advanced mathematics, the lower bound can be further improved to l/1r.
+
+Problem 84 [Czech-Slovak Match 1998]
+A polynomial P(x) of degree n	5 with integer coefficients and n distinct integer roots is given.
+Find all integer roots of P(P(x)) given that O is a root of P(x).
+
+
+Solution 84
+The roots of P(x) are clearly integer roots of P(P(x)); we claim there are no other integer roots.
+We prove our claim by contradiction. Suppose, on the contrary, that
+P(P(k)) = 0 for some integer k such that P(k)-:/- 0.
+Let
+where a, T1,T2, ... , Tn are integers,
+
+Since P(k)-:/- 0, we must have lk - Til 2': 1 for all i.
+Since the Ti are all distinct, at most two of lk - T2 I, lk -T3I, lk -T4I equal 1, so
+la(k - T2) ··· (k - Tn-1)I2': lallk - T2llk - T3llk - T4I 2': 2,
+and IP(k)I 2': 2lk(k - Tn)I,
+Also note that P(k) = Tio for some io, so IP(k)I :::; ITnl•
+Now we consider the following two cases:
+1. lkl 2': ITnl•	Then IP(k)I 2': 2lk(k - Tn)I 2': 2lkl > ITnl, a contradic­ tion.
+2. lkl < ITnl, that is, 1:::; lkl:::; ITnl - 1.	Let a, b, c be real numbers,
+a :::; b. For x E [a, b], the function
+f(x) = x(c - x)
+reaches its minimum value at an endpoint x = a or x = b, or at both endpoints.
+Thus
+
+It follows that
+
+which implies that ITnl :::; 2. Since n 2': 5, this is only possible if
+P(x) = (x + 2)(x + l)x(x - l)(x - 2).
+But then it is impossible to have k -:/- Ti and lkl :::; ITnl, a contra­ diction.
+
+
+Thus our assumption was incorrect, and the integer roots of P(P(x)) are exactly all the integer roots of P(x).
+
+Problem 85 [Belarus 1999}
+Two real sequences x1, x2, ... , and Y1, Y2, ... , are defined in the following way:
+
+
+and
+
+X1 = Yl = V3,	Xn+l = Xn + J1+ x;;,
+	Yn	
+
+Yn+1= l
+
++ V 2+y.,,
+
+for all n 2:: 1. Prove that 2 < XnYn < 3 for all n > 1.
+Solution 85, Alternative 1
+Let Zn = 1/Yn and note that the recursion for Yn is equivalent to
+
+Also note that z2 = V3 = x1; since the Xis and ZiS satisfy the same recursion, this means that Zn = Xn-l for all n > 1.
+Thus,
+Xn	Xn
+XnYn=-=--.
+Zn	Xn-1
+Note that		
++ x;,_1 > Xn-1•
+Thus Xn > 2Xn-1 and XnYn > 2, which is the lower bound of the desired inequality.
+Since XnS are increasing for n > 1, we have
+
+
+
+which implies that
+
+2xn-1 > J1+ x;,_1.
+
+Thus 3xn-l > Xn, which leads to the upper bound of the desired inequal­ ity.
+Solution 85, Alternative 2
+Setting Xn = cot 0n for O < 0n < 90° yields
+Xn+l = cot0n + J1+cot20n = cot0n + csc0n = cot (0;).
+
+
+
+
+Since 01 = 30°, we have in general 0n
+that
+
+30°
+= -2n--1. Similar calculation shows
+2tan0n
+
+
+Itfollows that
+
+Yn = tan(20n) = 1-tan20 n
+
+xy	2
+n n -	l - tan2 0n·
+Since tan 0n -:f. 0, tan2 0n is positive and XnYn > 2.
+And since for n > l we have 0n < 30°, we also have
+tan 2 0n < 1
+
+so that XnYn < 3.
+Comment: From the closed forms for Xn and Yn in the second solution, we can see the relationship
+1
+Yn=-­
+Xn-1
+used in the first solution.
+
+Problem 86 [China 1995]
+For a polynomial P(x), define the difference of P(x) on the interval [a, b]
+([a, b), (a, b), (a, bl) as P(b) - P(a).
+Prove that it is possible to dissect the interval [0, 1] into a finite number of intervals and color them red and blue alternately such that, for every quadratic polynomial P(x), the total difference of P(x) on red intervals is equal to that of P(x) on blue intervals.
+What about cubic polynomials?
+Solution 86
+For an interval i, let !:iiP denote the difference of polynomial P on i. For a positive real number c and a set S	R., let S + c denote the set obtained by shifting Sin the positive direction by c.
+We prove a more general result.
+Lemma
+Let f. be a positive real number, and let k be a positive integer. It is always possible to dissect interval Ik = [0, 2kf.] into a finite number of intervals and color them red and blue alternatively such that, for every
+polynomial P(x) with deg P ::; k, the total difference of P(x) on the red intervals is equal to that on the blue intervals.
+
+
+Proof
+We induct on k.
+Fork= 1, we can just use intervals [O,t'] and (t',2£]. It is easy to see that a linear or constant polynomial has the same difference on the two intervals.
+Suppose that the statement is true for k = n, where n is a positive integer; that is, there exists a set Rn of red disjoint intervals and a set Bn of blue disjoint intervals such that Rn n Bn = 0, Rn U Bn = In, and, for any polynomials P(x) with deg P ::S: n, the  total differences of P on
+Rn is equal to that of Pon  Bn,
+Now consider polynomial f(x) with deg/:::; n + l. Define
+g(x) = f(x + 2nt') and h(x) = f(x) - g(x).
+Then deg h ::S: n.  By the induction hypothesis,
+L flbh = L flrh,
+bEBn	rERn
+or
+
+It follows that
+
+where
+
+
+and
+(If R +I and B +1 both contain the number 2ne, that number may be removed from one of them.)
+It is clear that B +l and R +l form a dissection of In+I and, for any polynomial f with deg/ :::; n + 1, the total difference off on B +I is equal to that off on R +i ·
+The only possible trouble left is that the colors in B +1 UR +1 might not be alternating (which can happen at the end of the In and the beginning of In+ 2nt').
+But note that if intervals i1 = [a1, b1] and i2 = [b1, c1] are in the same color, then	·
+6.iJ + 6.i2f = 6.i3f,
+
+
+
+Thus, in B +l UR +l, we can simply put consecutive same color intervals into one bigger interval of the same color.
+Thus, there exists a dissection
+
+such that, for every polynomial f(x) with deg f::; n + l,
+
+This completes the induction and the proof of the lemma.	D Setting first f = 1/4 and then f = 1/2 in the lemma, it is clear that the answer to each of the given questions is "yes."
+
+Problem 87 (USSR 1990]
+Given a cubic equation
+x3 + _x2 + _x + _ = 0,
+Mr. Fat and Mr. Taf are playing the following game.
+In one move, Mr. Fat chooses a real number and Mr. Taf puts it in one of the empty spaces.
+After three moves the game is over.
+Mr. Fat wins the game if the final equation has three distinct integer roots.
+Who has a winning strategy?
+Solution 87
+Mr. Fat has a winning strategy.
+Let the polynomial be x3 + ax2 +bx+ c. Mr. Fat can pick 0 first. We consider the following cases:
+(a) Mr. Taf chooses a= 0, yielding the polynomial equation
+x3 +bx+ c = 0.
+Mr. Fat then picks the number -(mnp)2, where m, n, and p are three positive integers such that
+m2 +n2 =p2.
+
+If Mr. Taf chooses b = -(mnp)2, then Mr. Fat will choose c = 0.
+The given polynomial becomes
+x(x - mnp)(x + mnp).
+
+
+If Mr. Taf chooses c = -(mnp)2, then Mr. Fat will choose
+b=	m2n2 _ n2p2 _ p2m2.
+
+The given polynomial becomes
+(x + m2)(x + n2)(x - p2).
+(b) Mr. Taf chooses b = 0, yielding the equation
+x3 + ax2 +c = 0.
+Mr. Fat then picks the number
+m2(m + 1)2(m2 + m + 1)3,
+where m is an integer greater than 1.
+If Mr. Taf chooses
+a= m2(m+ 1)2(m2+m+ 1)3,
+then Mr. Fat can choose
+c = -m8(m + 1)8(m2 + m + 1)6.
+The polynomial becomes
+
+(x - mp)[x + (m + l)p][x + m(m + l)p],
+
+
+where
+
+
+p = m2(m + 1)2(m2 + m + 1)2.
+
+
+If Mr. Taf chooses
+c = m2(m + 1)2(m2 + m + 1)3,
+then Mr. Fat can choose
+a=-(m2+m+1)2.
+Thepolynomial becomes
+
+(x + mq)[x - (m + l)q][x - m(m + l)q],
+
+
+where
+
+q = m2 +m+ 1.
+
+
+(c) Mr. Taf chooses c = 0.
+Then the problem reduces to problem 40 of the previous chapter.
+Mr. Fat needs only to pick two integers a and b such that
+
+ab(a - l)(b - 1) =/- 0
+and a+ b = -1.
+The polynomial becomes either x(x - l)(x - a) or x(x - l)(x - b).
+
+Our proof is complete.
+Below is an example of what Mr. Fat and Mr. Taf could do:
+F
+,0,
+,,
+
+,,
+,,
+,,
+
+
+Problem 88 [Romania 1996]
+Let n > 2 be an integer and let / : IR2 --+ IR be a function such that for any regular n-gon A1A2 ... An,
+
+
+Prove that / is the zero function.
+Solution 88
+We identify IR2 with the complex plane and let ( = e21ri/n.
+Then the condition is that for any z EC and any positive real t,
+n
+I:t(z + t(i) = o.
+i'=l
+
+In particular, for each of k = 1, ... , n, we obtain
+
+Ln
+j=l
+
+
+f (z - (k +(i) = 0.
+
+
+Summing over k, we have
+L Lf(z - (1- (m)(k) = 0.
+m=l k=l
+Form= n theinner sum is nf(z); for other m, the inner sum again runs over a regular polygon, hence is 0.
+Thus f(z) = 0 for all z E C.
+Problem 89 [IMO 1997 short list]
+Let p be a prime number and let f(x) be a polynomial of degreed with integer coefficients such that:
+(i) /(0) = o, /(1) = 1;
+(ii) for every positive integer n, the remainder upon division of f(n)
+by pis either O or 1.
+Prove that d	p - 1.
+Solution 89, Alternative 1
+For the sake of the contradiction, assume that d :5 p - 2.
+Then by Lagrange's interpolation formula the polynomial f(x) is determined by its values at 0, 1, ... , p - 2; that is,
+f(x) =	'p°-2' f(k) x ··· (x - k + l)(x-	k - 1) ··· (x - p + 2)
+6	k···l·(-l)···(k-p+2)
+'p°-2'	x ··· (x - k + 1) (x -  k - 1) ···(x - p + 2)
+6/(k)	k!(-l)P-k	(p-k-2)!	.
+
+Setting x = p - 1 gives
+
+f(-p
+
+1) =	'p°-2' f(k) (p- l)(p-	2) ... (p- k)
+(-l)P-kk!
+
+k=O
+
+
+
+
+
+
+It follows that
+
+p-2
+-	(-l)P	f(k)	(mod p).
+k=O
+
+S(f) := /(0) + /(1) + ··· + f(p - 1) = 0  (mod p).	(1)
+
+
+On the other hand, (ii) implies that S(f) = J	(mod p), where j denotes the number of those k E {O, 1, ... , p- 1} for which f(k) = 1	(mod p).
+But (i) implies that 1 S J S p - l.
+So S(f) =/=. 0	(mod p), which contradicts (1).
+Thus our original assumption was wrong, and our proof is complete.
+Solution 89, Alternative 2
+Again, we approach the problem indirectly. Assume that d Sp - 2, and let
+J(x) = ap-2xp-2 +··· + a1x + ao.
+Then
+
+p-1	p-1 p-2	p-2	p-1	p-2
+S(f) = Lf(k) = LLaiki = I:a,Lki = LaiSi,
+k=O	k=Oi=O	i=O	k=O	i=O
+
+p-1
+where Si=	ki.
+k=O
+We claim that Si= 0	(mod p) for all i = 0, 1, ... , p - 2.
+We use strong induction on i to prove our claim. The statement is true for i = 0 as So = p.
+Now suppose that So	S1	Si-1	0	(mod p) for some 1 S i S p - 2. Note that
+
+k=l	k=O	k=O
+=I:  (i 1) kJ = (i + l)Si +I:(i 1) Si
+k=O j=O	J	j=O	J
+= (i + l)Si	(mod p)
+Since O < i +1 < p, it follows that Si= 0	(mod p). This completes the induction and the proof of the claim. Therefore,
+
+p-2
+S(f) =	aiSi = 0	(mod p).
+i=O
+
+The rest is the same as in the first solution.
+
+
+Problem 90
+Let n be a given positive integer.
+Consider the sequence ao, a1, ··· , an with ao =	and
+
+
+
+fork= l, 2, ·· ·, n.
+Prove that
+
+
+
+1
+l--<an<l.
+n
+
+Solution 90, Alternative 1
+We prove a stronger statement: Fork= l, 2, ... , n,
+n+ 1	n
+
+
+
+
+
+(1)
+
+-2n  k_+_2 < ak < -2n---k ·
+
+We use induction to prove both inequalities.
+We first prove the upper bound. For k = l, it is easy to check that
+1	1	2n + 1	n
+ai = 2 + 4n =	<	2n - 1·
+
+Suppose that
+
+
+n
+ak<	2n - k'
+
+for some positive integer k < n. Then
+
+
+<		2n	k ( n + 2n	k)  n(2n - k + l)
+=	(2n - k)2
+	n	
+<	2n - k - l'
+as
+(2n - k + l)(2n - k - l) = (2n - k)2 -  1 < (2n - k)2.
+Thus our induction step is complete. In particular, for k = n - l,
+
+
+an = ak+l <
+
+n	-l
+2n - (n - l) - 1-	'
+
+
+as desired.
+Now we prove the upper bound. Fork= l, it is easy to check that
+2n + 1	n + l
+ai =	>  2n+1·
+
+Suppose that
+
+
+n+l
+ak>  2n - k + 2 '
+
+for some positive integer k < n. Then
+a	n + l	(n + 1)2
+ak+i = ak+	>  2n - k+  2+  n(2n - k+  2)2
+It follows that
+
+  n+l	 >
+
+--,--n-+l------+-(n-+-1)-2  -
+
+ak+l-	2n - k+ l
+
+(2n - k + l)(2n - k + 2)	n(2n - k + 2)2
+
+
+   n + l	( n + l	 2n - k  +  2)  2n - k + 2)2		n	2n - k + l
+=	n  +l	(.!. _	1	)  > O
+2n - k + 2)2	n	2n - k + l	·
+This complete the induction step. In particular, for n = k - l, we obtain
+n+l	n+l	1	1
+
+    an= ak+l > 2n- as desired.
+
+( n-  l)
+
+l	= --	=1- --	1 - -,
+n+	n+	n
+
+Solution 90, Alternative 2
+Rewriting the given condition as
+n
+
+
+-1----1 -
+
+
+
+
+yields
+
+
+for k = l, 2, ... , n.
+
+1	1		1		(2)
+
+
+It is clear that aks are increasing. Thus
+
+
+
+Thus (2) implies that
+
+
+for k = 1, 2, ... , n.
+
+1	1<-1
+ak-1	ak	n
+
+Telescoping summation gives
+
+
+
+or
+
+
+-1 --1<1
+ao	an
+
+-1 > -1 - 1 = 2 - 1 = 1,
+an	ao
+that is, an < 1, which gives the desired upper bound.
+
+Since an < 1, and, since aks are increasing,
+k = 1,2, ... ,n.
+Then (2) implies
+
+1 = ao < ak	an < 1 for
+
+
+
+for k = 1, 2, ... , n.
+
+1	1	1	1
+
+n+ak-1 >--1,
+
+Telescoping sum gives
+
+-1 --1 >-n-
+ao	an	n	1
+
+or	1	1	n	n+2
+-<
+an	ao	n+l-n+l'
+
+that is,
+
+an > -n-+ 1	1 - -- 1
+n+2	n+2
+
+
+> 1 - -
+n'
+
+which is the desired lower bound.
+
+Problem 91 [IMO 1996 short list]
+Let a1, a2, ... , an be nonnegative real numbers, not all zero.
+(a) Prove that xn - a1xn-l - ··· - an-1X - an = 0 has precisely one positive real root R.
+(b) Let A= E'J=1 a1 and B = Lj=l ja3.
+Prove that AA	R8.
+
+
+Solution 91
+
+(a) Consider the function
+
+Note that / decreases from oo to Oas x increases from O to oo.
+Hence there is•a unique real number R such that f(R) = 1, that is, there exists a unique positive real root R of the given polynomial.
+(b) Let Cj = ai/A.
+Then CjS are non-negative and I: Cj = l.
+Since - In x is a convex function on the interval (0, oo), by Jensen's inequality,
+
+
+
+It follows that
+
+LCj ( - In A + j In R) 2'. O
+j=l
+
+or	n	n
+LCj lnA::; L)Cj lnR.
+j=l	j=l
+Substituting Ci = ai/A, we obtain the desired inequality.
+
+Comment: Please compare the solution of (a) with that of the problem 15 in the last chapter.
+
+Problem 92
+Prove that there exists a polynomial P(x, y) with real coefficients such that P(x, y) 2'. 0 for all real numbers x and y, which cannot be written as the sum of squares of polynomials with real coefficients.
+Solution 92
+We claim that
+P(x, y) = (x2 + Y2 - l)x2y2 + 1
+is a polynomial satisfying the given conditions.
+First we prove that P(x, y) 2'. 0 for all real numbers x and y.
+
+
+If x2 + y2 - 1	0, then it is clear that P(x, y) > 0; if x2 + y2 - 1 < 0, then applying the AM-GM inequality gives
+
+
+
+
+
+or
+(x2 + y2 - l)x2y2
+
+
+
+
+1
+- 27·
+
+1
+27'
+
+It follows that P(x, y)	0.
+We are left to prove that P(x, y) cannot be written as the sum of squares of polynomials with real coefficients.
+For the sake of contradiction, assume that
+n
+P(x,y) = LQi(x,y)2.
+i=l
+Since deg P = 6, deg Qi :::; 3. Thus
+Aix3 + Bix2y + Cixy2 + Diy3
++Eix2 + Fixy + Giy2 +Hix+ Iiy+ Ji.
+Comparing the coefficients, in P(x,y) and E 1 Qi(x,y)2, of terms x6
+and y6 gives
+nnLAf
+i=l= LDf
+i=l=0,or Ai = Di = 0 for all i.
+Then, comparing those of x4 and y4 gives
+n	n
+I:El=I:Gf =0,
+i=l	i=l
+or Ei =Ci= 0 for all i.
+Next, comparing those of x2 and y2 gives
+
+
+
+
+
+or Hi = Ii = 0 for all i.
+Thus,
+
+
+n	n
+I:Hl = I:1; =0,
+i=l	i=l
+
+
+
+
+But, finally, comparing the coefficients of the term x2y2, we have
+n
+I:Fl =-1,
+i=l
+
+which is impossible for real numbers Fi.
+Thus our assumption is wrong, and our proof is complete.
+
+Problem 93 [IMO 1996 short list]
+For each positive integer n, show that there exists a positive integer k
+such that
+k = f(x)(x + 1)2n + g(x)(x2n + 1)
+for some polynomials f, g with integer coefficients, and find the smallest such k as a function of n.
+Solution 93
+First we show that such a k exists.
+Note that x + l divides 1 - x2n. Then for some polynomial a(x) with integer coefficients, we have
+(1 + x)a(x) = 1 - x2n = 2 - (1 + x2n),
+
+or
+2 = (1 + x)a(x) + (1 + x2n).
+Raising both sides to the (2n)th power, we obtain
+
+where b(x) is a polynomial with integer coefficients.
+This shows that a k satisfying the condition of the problem exists. Let
+k0 be the minimum such k.
+Let 2n = 2r • q, where r is a positive integer and q is an odd integer. We claim that ko = 2q.
+First we prove that 2q divides k0.  Let t = 2r.  Note that x2n + 1 =
+(xt + l)Q(x), where
+
+Q(x=)
+The roots of xt + 1 are
+
+xt(q-l) _ xt(q-2)+ ... _ xt+ l.
+
+Wm = cos ((2mt-1)71')
+
++ ..	((2m-1)11')
+
+m = 1,2, ... ,t;
+
+
+
+that is,
+
+
+R(x) = xt + 1 = (x -wi)(x - w2) · · · (x - Wt)-
+
+Let f(x) and g(x) be polynomials with integer coefficients such that
+ko	=	f(x)(x + 1)2n + g(x)(x2n + 1)
+f(x)(x + 1)2n + g(x)Q(x)(xt + 1).
+
+
+It follows that
+
+Since r is positive, t is even. So
+
+
+
+(1)
+
+
+
+
+Since f (w1) f (w2) · · · f (Wt) is a symmetric polynomial in w1, w2, ... ,Wt with integer coefficients, it can be expressed as a polynomial with integer coefficients in the elementary symmetric functions in w1, w2, ... , Wt and therefore
+is an integer.
+Taking the product over m = 1, 2, ... , t, (1) gives 22n F = ki or 22r·qp =
+k'{. It follows that 2q divides ko.
+It now suffices to prove that ko  2q.
+Note that Q(-1) = 1.
+It follows that
+Q(x) = (x + l)c(x) + 1,
+where c(x) is a polynomial with integer coefficients. Hence
+(x + 1)2n(c(x))2n = (Q(x) - 1)2n = Q(x)d(x) + 1,	(2)
+for some polynomial d( x) with integer coefficients. Also observe that, for any fixed m,
+
+Thus
+
+and writing
+
+
+
+we find that for some polynomial h(x), independent of m, with integer coefficients such that
+(1 +Wm)th(wm) = 2.
+But then (x + l)h(x) - 2 is divisible by xt + l and hence we can write
+(x + l)h(x) = 2 + (xt + l)u(x),
+for some polynomial u(x) with integer coefficients. Raising both sides to the power q we obtain
+
+
+
+where v(x) is a polynomial with integer coefficients.
+Using (2) and (3) we obtain
+(x + l)2n(c(x))2n(xt + l)v(x)
+= Q(x)d(x)(xt + l)v(x) + (xt + l)v(x)
+= Q(x)d(x)(xt + l)v(x) + (x + l)2n(h(x))q- 2q,
+
+(3)
+
+
+
+that is,
+
+
+2q = fi(x)(x + 1)2n + g1(x)(x2n + 1),
+
+where Ji(x) and 91( x) are polynomials with integer coefficients. Hence ko	2q, as desired.
+Our proof is thus complete.
+
+Problem 94 [USAMO 1998 proposal, Kiran Kedlaya]
+Let x be a positive real number.
+(a) Prove that
+00	(n - 1)!	1
+(x + 1) · .. (x + n)=	-
+(b) Prove that
+00	(n-1)!	00	1
+n(x + 1) ... (x + n=)	(x +k)2•
+
+
+Solution 94
+We use infinite telescoping sums to solve the problem.
+(a) Equivalently, we have to show that
+
+00	n'.x	_ 1
+n(x + 1) · · • (x + n)-	·
+
+
+Note that
+
+
+It follows that
+
+X	1	1
+n(x+n)	n	x+n
+n!x
+
+n(x + 1) • · • (x + n)
+(n -1)!	n!
+(x + 1) · • • (x + n - 1)	(x + 1) · • • (x + n)'
+and this telescoping summation yields the desired result.
+(b) Let
+00	(n - 1)!
+f(x)=	n(x + 1) ... (x + n)"
+Then, by (a), f(x) < -1.
+X
+
+In particular, f(x) converges to O as x approaches oo, so we can write f as an infinite telescoping series
+
+
+
+00
+f(x) = L[f(x + k - 1) -  f(x +k)].
+k=l
+
+On the other hand, the result in (a) gives
+
+
+(1)
+
+
+f(x - 1) -  f(x) =	(n- 	1)!	(1	1	)
+n(x + 1) ... (x + n - 1) ; -	x + n
+1 00	(n-1)!
+=	;	(x + 1) · · · (x + n)
+1
+x2.
+
+	4. Solutions to Advanced Problems
+
+Substituting the last equat-i.on to (1) gives
+00	1
+f(x) =	(x+ k)2,
+
+as desired.
+
+Problem 95 [Romania 1996]
+Let n 2". 3 be an integer, and let
+
+be a set of 3n2 elements.
+Prove that one can find nine distinct numbers ai, bi, c, (i = 1, 2, 3) in X
+such that the system
+a1x + b1y + c1z	0
+a2x + b2y + c2z	0
+a3x + b3y + c3z	0
+has a solution (xo,Yo, zo) in nonzero integers.
+Solution 95
+Label the elements of X in increasing order x1 < ··· < x3n2, and put
+X1	{x1, .. -,Xn2},
+X2	{xn2+1,,,,,X2n2},
+X3	{x2n2+1, .. ,,X3n2}.
+Define the function f: X1 x X2 x X3 -+ S x Sas  follows:
+f(a,b,c) = (b-a,c-b).
+Thedomain of/  contains n6 elements.
+The range of /, on the other hand, is contained in the subset of S x S
+of pairs whose sum is at most n3, a set of cardinality
+
+By the Pigeonhole Principle, some three triples (ai,bi,c,) (i = 1, 2, 3) map to the same pair, in which case x·= b1 - c1, y = c1 - a1, z = a1- b1 is a solution in nonzero integers.
+
+
+Note that ai cannot equal bi since X1 and X2 are disjoint, and that a1 = a2 implies that the triples (a1, b1, c1) and (a2, b2, c2) are identical, a contradiction.
+Hence the nine numbers chosen are indeed distinct.
+
+Problem 96 [Xuanguo Huang]
+Let n  3 be an integer and let x1, x2, · · · , Xn be positive real numbers. Suppose that
+n	1
+""l+'-x·	1.
+j=l	J
+Prove that
+./Xi+./xi+···+,./x;i (n-l) ( -1 +-+1	···+1 -) .
+
+Solution 96
+
+Fi	,/xi	,/Xn
+
+By symmetry, we may assume that X1	X2	· · ·	Xn- We have the following lemma.
+Lemma	For 1	i < j	n,
+.jxi,>.Jxi.
+1+ Xi -	1 + Xj
+Proof	Since n	3, and, since
+n	1
+
+we have or
+
+""'-=1
+i=l	i
+
+
+1 +Xi+ Xj+ XiXj > 2 +Xi+ Xj.
+
+Itfollows that XiXj > l. Thus
+.jxi, -	.;x; =
+1 + Xi	1 + Xj
+
+=
+
+
+.jxi,(1 + Xj) -  .jxj(l + Xi) 
+(1+ Xi)(l + Xj)
+(.jxi,- .jxj)(1- .flixj)
+(1+ Xi)(l + Xj)
+
+
+
+as desired.
+By the lemma, we have
+-F-i >--VX>2
+
+?
+
+···>F-n -
+
+
+
+and, since
+
+1+ X1 -	1 + X2 -	-	1 + Xn '
+
+-1->--1>···>-1-
+
+
+
+it follows by the Chebyshev Inequality
+
+By the Cauchy-Schwartz Inequality, we have
+
+or
+
+Multiplying by
+
+
+on both sides of (2) and applying (1) gives
+
+which in turn implies the desired inequality.
+
+
+
+(1)
+
+
+
+
+
+
+
+(2)
+
+
+Problem 97
+Let X1, x2, ... , Xn be distinct real numbers. Define the polynomials
+
+
+
+and
+
+
+Q(x)=P(x) ( --1
+
+
++--1+···+1--)  .
+
+X -  X1	X -  X2	X -  Xn
+Let Y1, Y2, ... , Yn-1 be the roots of Q.
+Show that
+min lxi - x I< min IYi -y·l-
+i,f.j	J	i,j.j	J
+
+Solution 97
+By symmetry, we may assume that
+d = rajn IYi - Yi I = Y2 - Y1•
+i-,-J
+Let Sk = Y1 - xk,	fork= l, 2, ...  , n.
+By symmetry, we may also assume that s1 < s2 < · ·· < sn, i.e., x1 >
+X2 > ··· > Xn-
+For the sake of contradiction, assume that
+d:::; min lxi - xii= min xi - Xj = mins1 -  si.
+i#-J	i<J	i<J
+
+Since P has no double roots, it shares none with Q.
+Then
+
+
+
+or	1	1	1
+---+---+···+	=0.
+Yi - XI	Yi - X2	Yi - Xn
+In particular, setting i = 1 and i = 2 gives
+n	1	n	1
+L Sk   = L Sk+ d = O.
+k=l	k=l
+
+
+
+
+
+
+(2)
+
+We claim that there is a k such that sk(sk + d) < 0, otherwise, we have
+--1 <­1
+Sk+ d	Sk
+
+
+for all k, which in turn implies that
+n	1	n	1
+L	Sk + d< L	Sk' 
+k=l	k=l
+which contradicts (2).
+Let j be the number of ks such that sk(sk+d) < 0, that is, Sk < 0 < sk+d. A simple but critical fact is that Sk + d and Sk+j have the same sign. In fact, suppose that
+
+then
+
+S1 + d < ··· < Si + d < 0 < Si+l + d < ··· < Sn + d.
+
+Then Sk+j > 0 if and only if k > i + 1, that is Sk + d > 0.
+From (1), we obtain sk + d :£ Sk+j, and, since Sk + d and Sk+j have the same sign, we obtain
+--1 >-1­
+Sk +d -	Sk+j'
+for all k = 1, 2, • • •, n -  j. Therefore,
+n-j	1	n-j	1
+-<	­
+L..., Sk+. -	L..., Sk	d'
+k=l	J	k=l
+
+or
+Also note that
+
+n	1	n-j	1
+k=j+l Sk-	k=l Sk +d
+j	1	n	1
+Z:-<o<
+k=l Sk	k=n-j+l Sk +d
+
+(3)
+(4)
+
+Adding (3) and (4) yields
+which contradicts (2).
+
+n	1	n	1
+Lsk 	<	Lsk+d'
+k=l	k=l
+
+Thus our assumption is wrong and our proof is compJete.
+
+
+Problem 98 [Romania 1998]
+Show that for any positive integer n, the polynomial
+
+cannot be written as the product of two non-constant polynomials with integer coefficients.
+Solution 98
+Note that f(x) = g(h(x)), where h(x) = x2 + x and g(y) = y2n + l.
+Since
+
+
+and (2kn) is even for 1	k	2n - 1, g is irreducible, by Eisenstein's criterion.
+Now let p be a non-constant factor of f, and let r be a root of p.
+Then g(h(r)) = f(r) = 0, sos:= h(r) is a root of g.
+Since s = r2 + r E Q(r), we have Q(s) C Q(r), so
+deg p	deg(Q(r)/Q)	deg(Q(s)/Q) = deg g = 2n.
+Thus every factor of f has degree at least 2n.
+Therefore, if f is reducible, we can write f(x) = A(x)B(x) where A and
+B have degree 2n.
+Next, observe that
+f(x)	=	(x2 + x)2n + 1
+x2n+l + x2n + 1 = (x2 + X + 1)2n	(mod 2).
+Since x2 + x + l is irreducible in Z2[x], by unique factorization we must have
+
+
+Thus, if we write
+A(x)		a2nX2n +···+ ao, B(x)	=	 b2nX2n +··· + bo,
+then a2n, a2n-l, ao, b2n, b2n-l, bo are odd and all the other coefficients are even. Since f is monic, we may assume without loss of generality
+
+
+that a2n = b2n = 1; also, aobo = f (0) = 1, but ao > 0, bo > 0 as f has no real roots, so ao = bo = l.
+Therefore,
+
+as a2n-l + b2n-l is even.
+But
+
+
+and (2	1) is odd by Lucas's theorem, so
+
+a contradiction. Hence f is irreducible.
+Problem 99 [Iran 1998]
+Let Ji, h, /J : JR --+ JR be functions such that
+
+is monotonic for all a1, a2, a3 E JR.
+Prove that there exist c1, c2, c3 E JR, not all zero, such that
+
+for all x E JR.
+Solution 99, Alternative 1
+We establish the following lemma.
+Lemma: Let f, g : JR --+ JR be functions such that f is nonconstant and af + bg is monotonic for all a, b E JR. Then there exists c E JR such that g - cf is a constant function.
+Proof  Lets, t be two real numbers such that /(s) =J. f(t).
+
+
+
+Let
+
+u - -g--('-s-)'	g-'-(-t'-)-
+-	f(s) -  f(t) ·
+
+Let h1 = g - d1f for some d1 E JR. Then h1 is monotonic. But
+
+Since f(s) - f(t) # 0 is fixed, the monotonicity of h1 depends only on the sign of u - d1,
+Since / is nonconstant, there exist X1, X2 E JR such that / (xi) # f (x2).
+Let
+
+and h = g - cf.
+Then r = h(xi) = h(x2) and the monotonicity of h1 = g - dif, for each
+d1, depends only on the sign of c - d1.
+We claim that h = g - cf is a constant function. We prove our claim by contradiction.
+Suppose, on the contrary, that there exists x3 E JR such that h(x3) # r. Since /(x1) # f(x2), at least one of /(x1) # f(xa) and f(x2) # f(xa) is true.
+Without loss of generality, suppose that /(x1) # f(x3).
+Let
+C =-'---'--....a...--'---'--.
+/(xi) - f(xa)
+Then the monotonicity of h1 also depends only on the sign of c' - d1.
+Since h(xa) # r = h(x1),
+c #	g(x1) - g(xa) _ c'·
+
+
+hence c - d1 # c' - d1.
+
+/(xi) - f(xa-)	'
+
+So there exists some d1 such that h1 is both strictly increasing and de­ creasing, which is impossible.
+Therefore our assumption is false and h is a constant function.	?
+Now we prove our main result.
+If Ji, /2, fa are all constant functions, the result is trivial. Without loss of generality, suppose that Ji is nonconstant.
+
+
+For a3 = 0, we apply the lemma to Ji and h, so h = cfi +d; for a2 = 0, we apply the lemma to Ji and h, so h = c'fi + d'.
+Here c, c', d, d' are constant.
+We have
+(c'd- cd')h + d'h - dh = (c'd- cd')!i + d'(cfi + d) - d(c' Ii+	d') = 0.
+If (c'd - cd', d', -d) =/- (0, 0, 0), then let
+
+and we are done.
+Otherwise, d = d' = 0 and h, h are constant multiples of Ji.
+Then the problem is again trivial.
+Solution 99, Alternative 2
+Define the vector
+
+
+for x ER
+
+v(x) = Ui(x), h(x), h(x))
+
+If the v ( x) span a proper subspace of JR3, we cap. find a vector (c1, c2, c3) orthogonal to that subspace, and then cif1(x) + c2h(x) + c3h(x) = 0 for all x ER
+So suppose the v(x) span all of JR3.
+Then ther exist X1 < x2 < x3 E JR such that v(x1), v(x2), v(x3) are linearly independent, and so the 3 x 3 matrix A with Aij = Jj(xi) has
+linearly independent rows.
+But then A is invertible, and its columns also span JR3. This means we can find c1, c2, c3 such that
+Lci(f,(xi), fi(x2), fi(x3)) = (0, 1, 0),
+i=l
+and the function cif1+c2h+c3h is then not monotonic, a contradiction.
+
+
+Problem 100 [USAMO 1999 proposal, Richard Stong]
+Let X1, X2, ... , Xn be variables, and let Y1, Y2, ... , Y2n -1 be the sums of nonempty subsets of Xi.
+Let Pk(x1, ... , xn) be the kth elementary symmetric polynomial in the Yi (the sum of every product-of k distinct yi's).
+For which k and n is every coefficient of Pk (as a polynomial in x1, ... , Xn)
+even?
+For example, if n = 2, then Y1, Y2, y3 are x1, x2, x1 + x2 and
+Pl = Y1 + Y2 + Y3 = 2x1 + 2x2,
+P2 = Y1Y2 + Y2Y3 + Y3Yl =Xi+ X + 3x1x2,
+p3 = Y1Y2Y3 = Xi X2 + X1X -
+Solution 100
+We say a polynomial Pk is even if every coefficient of Pk is even. Otherwise, we say Pk is not even.
+For any fixed positive integer n, we say a nonnegative integer k is bad for n if k = 2n - 2j for some nonnegative integer j.
+We will show by induction on n that Pk (x1, x2, ·· ·, xn) is not even if and only if k is bad for n.
+For n = l, p1(xi) = x1 is not even and k = l is bad for n = l as
+k = l = 21 - 2° = 2n - 2°.
+Suppose that the claim is true for a certain n.
+We now consider Pk(x1, x2, ... , Xn+i)-
+Let ak(Y1, Y2, ... , Ys) be the kth elementary symmetric polynomial. We have the following useful, but easy to prove, facts:
+1. O'k(Y1,Y2,···,Ys,O) =ak(Y1,Y2,···,Ys);
+2. For all 1	r	s,
+O'k(Yl,···,Ys) =  L [o-i(Y1,···,Yr)O'j(Yr+l,""",Ys)];
+i+j=k
+
+L	(x+Yi1)(x+yi2)···(x+yik)
+i1<i2<•••<ik
+k
+I:
+i1<i2<..•<ik r=O	s1<s2<" <sr
+{s1,..·,sr} {i1, · ,ik}
+
+
+
+
+
+Hence
+
+Pk(X1,X2, ··· ,Xn+1)
+= L [pi(x1, ·· ·, Xn) ·
+i+j=k
+O'j(Xn+l, X1 + Xn+l, · ··, X1 + X2 +··· + Xn+1)]
+L	2	;)Pi(x1,···, Xn)Pr(x1, ·· ·, Xn)X +; •
+i+j=k r=O	J
+
+By the induction hypothesis, every term of Pr(x1, x2 · ··, xn) is even un­ less r = 2n - 2t, for some O	t	n.
+For such r, note that
+
+
+is even unless j - r = 0 or j - r = 2t.
+Therefore, taking coefficients modulo 2,
+
+Pk(X1,X2, ··· ,Xn+l)
+= L Pi(X1, X2, · · ·, Xn)Pj(X1, X2,· · · Xn) i+j=k
+
+
+By the induction hypothesis, the terms in the first sum are even unless
+k - 2n = 2n - 2" for some O	u	n, that is k = 2n+l - 2".
+In the second sum, every term appears twice except the term
+
+fork even.
+By the induction hypothesis, this term is even unless k /2 = 2n - 2", for some O	v	n, that is k = 2n+l - 2"+1.
+It follows that Pk(x1, x2,· ·· Xn+1) is even unless k = 2n+l - 2w for some
+0	w	n + 1, i.e., k is bad for n + 1:
+
+
+Furthermore, note that the odd coefficients in
+
+
+occur for different powers of Xn+l·
+Therefore, the condition that k is bad for n + 1 is also sufficient for
+
+to be odd.
+Our induction is complete.
+
+Problem 101 [Russia 2000]
+Prove that there exist 10 distinct real numbers a1, a2,... , a10 such that the equation
+
+has exactly 5 different real roots.
+Solution 101
+We show that {a1,a2,.,.,a10} = {7,6, ... ,-2} is a group of numbers satisfying the conditions given in the problem.
+The given equality becomes
+(x - 2)(x - l)x(x + l)(x + 2)g(x2) = 0,
+where
+g(u)	2[((7 + 6 + .. • + 3)u2 +
+(7 · 6 • 5 + 7 · 6 · 4 +··· + 5 · 4 · 3)u + 7 · 6 ··· 3].
+If g(u) = has no real solutions, then g(x2) = 0 has no real solutions.
+If u1 and u2 are real solutions of g( u) = 0, then u1+u2 < 0 and u1u2 > 0, that is, both u1 and u2 are negative.
+It follows again that g(x2) = 0 has no real solutions. Our proof is complete.
+
+
+
+GLOSSARY
+
+
+Arithmetic-Geometric Mean Inequality (AM-GM Inequality)
+If a1, a2, ...  , an are n nonnegative numbers, then
+
+with equality if and only if a1 = a2 = ··· = an.
+Binomial Coefficient
+The coefficient of xk in the expansion of (x + l t is
+n)	n!
+k -	k!(n-k)!.
+
+
+Cauchy-Schwarz Inequality
+For any real numbers a1, a2, ...  , an, and b1, b2, ...  , bn
+
+with equality if and only if ai and bi are proportional, i = 1, 2, ... , n.
+Chebyshev Inequality
+
+1. Let X1, X2 ... , Xn and Y1, Y2, ... , Yn be two sequences of real num­ bers, such that X1	X2	· · ·	Xn and Y1	Y2	...	Yn· Then
+
+
+2. Let x1, X2 ... , Xn and Y1, Y2, ... , Yn be two sequences of real num­ bers, such that X1	X2	· · ·	Xn and Y1	Y2	...	Yn· Then
+
+
+
+De Moivre's Formula
+For any angle a and for any integer n,
+(cos a + i sin at = cos na + i sin na.
+
+Elementary Symmetric Polynomials (Functions)
+Given indeterminates x1, ... , Xn, the elementary symmetric functions s1, ... , Sn are defined by the relation (in another indeterminate t)
+(t + X1) ·  · (t + Xn) = tn + S1tn-l +··· + Sn-lt + Sn.
+That is, Sk is the sum of the products of the x, taken k at a time. It is a basic result that every symmetric polynomial in x1, ... , Xn can be (uniquely) expressed as a polynomial in the Si, and vice versa.
+
+Fibonacci Numbers
+Sequence defined recursively by Fi = F2 = 1, Fn+2 = Fn+I + Fn, for all nEN.
+
+Jensen's Inequality
+If f is concave up on an interval [a, b] and .>.1, .>.2, ... , An are nonnegative numbers with sum equal to 1, then
+
+for any x1, x2, ... , Xn in the interval [a, b]. If the function is concave down, the inequality is reversed.
+
+Lagrange's Interpolation Formula
+Let xo, x1, ... , Xn be distinct real numbers, and let Yo, Y1, ... , Yn bear­ bitrary real numbers. Then there exists a unique polynomial P(x) of degree at most n such that P(xi) = Yi, i = 0, 1, ... , n. This is the polynomial given by
+
+
+Law of Cosines
+Let ABC be a triangle. Then
+BC2 = AB2 + AC2 - 2AB · AC cos A.
+
+
+Lucas' Theorem
+Let p be a prime; let a and b be two positive integers such that
+
+where O	ai, bi < pare integers for i = 0, 1, ... , k. Then
+
+
+Pigeonhole Principle
+If n objects are distributed among k < n boxes, some box contains at least two objects.
+
+Root Mean Square-Arithmetic Mean Inequality (RMS-AM In­ equality)
+For positive numbers x1, x2, ... , Xn,
+
+x-=+--x -+-·=··-+-x	X=1 +>-X2-+-·-··-+--Xk.
+More generally, let a1,a2, ... ,an be any positive numbers for which a1 +
+a2 +···+an = l. For positive numbers x1, x2,	, Xn we define
+M_00  = min{x1, X2,	, xk},
+Moo= max{x1, x2,	, Xk},
+Mo = x l x 2	x n,
+Mt = (a1Xi + a2x +	+ akxt)1lt,
+where tis a non-zero real number. Then
+
+
+for s	t.
+
+
+Triangle Inequality
+Let z =a+  bi be a complex number. Define the absolute value of z to be
+!z! = Ja2 + b2.
+Let a and f3 be two complex numbers. The inequality
+                       !a + /31	!al + 1/31 is called the triangle inequality.
+Let a = 01 + a2i and {3 = /31 + /32i, where 01, 02, /31, /32 are real numbers. Then a+ f3 = (01 + /31) + (02 + /32)i.
+Vectors u = [01, 02], v = [/31, /32], and w = [01 + /31, 02 + /32] form a triangle with sides lengths !al, 1/31, and !a+ /31-
+The triangle inequality restates the fact that the length of any side of a triangle is less than the sum of the lengths of the other two sides.
+
+Vieta's Theorem
+Let x1, x2, ... , Xn be the roots of polynomial
+P(x) = anXn + an-1Xn-l + ··· + a1x + ao.
+where an -:/- 0 and ao, a1, ... , an E CC. Let Sk be the sum of the products of the xi taken k at a time. Then
+Sk = (- l)k -a-n,-k
+an
+
+that is,
+
+
+
+X1 + X2 + · · · + Xn
+
+
+an-1
+= - --;
+an
+
+X1X2 + · · · + XiXj + Xn-lXn = -a-n;-2
+an
+
+
+
+Trigonometric Identities
+
+
+sin2 a+ cos2a = l,
+sin a
+tanx=--,
+cos a
+
+cotx
+
+1
+=--'-­
+taan
+
+
+addition and subtraction formulas:
+sin(a ± b) = sin a cos b ± cos a sin b, cos(a ± b) = cos a cos b =i= sinasinb,
+
+tan(
+
+a± b)	tan a± tanb
+
+
+
+double-angle formulas:
+
+= 1=F tan a tan ;
+
+sin2a = 2sinacosa,
+cos 2a = cos2 a - sin2 a = 2 cos2 a - l = 1 - 2 sin2 a,
+
+tan2a= 1
+
+2tana
+-tan2 a ,
+
+
+
+triple-angle formulas:
+
+
+
+sin3a = 3sina - 4sin3 a,
+cos 3a = 4 cos3 a - 3cos a,
+3	_  3tan a - tan3 a.
+
+
+
+half-angle formulas:
+
+tan a-	1
+
+- 3 tan2 a  '
+
+.	2tan!
+sma= l+tan2 211,
+1 - tan2 $!
+cosa=1 +tan2 ,
+   _	2tan! . tana-1 -tan2121,
+
+
+sum-to-product formulas:
+s. m+asm. b
+
+
+=2s.ma- +-cbosa- --b,
+
+2	2
+            a+b	a-b cosa + cosb = 2cos-2-cos -2-;
+sin(a + b)
+tan a+ tanb =	;
+cosacosb
+
+difference-to-product formulas:
+s.ma-sm. b =2s.ma- --bcosa- +-,b
+2	2
+
+
+
+cos a - cosb
+
+. a-b.  a+b
+sm --	sm --
+2	2  '
+sin(a - b)
+
+tana-tanb= cos a cos b;
+
+product-to-sum formulas:
+2 sin a cos b = sin(a + b) + sin(a - b), 2cosacosb = cos(a + b) + cos(a - b), 2sinasinb = - cos(a + b) + cos(a - b).
+
+FURTHER READING
+
+
+
+1. Andreescu, T. Kedlaya, K.; Zeitz, P., Mathematical Contests 1995-1996: Olympiad Problems from around the World, with Solutions, American Mathematics Competitions, 1997.
+
+2. Andreescu, T. Kedlaya, K., Mathematical Contests 1996-1997: Olympiad Problems from around the World, with Solutions, American Mathematics Competitions, 1998.
+3. Andreescu, T. Kedlaya, K., Mathematical Contests 1997-1998: Olympiad Problems from around the World, with Solutions, American Mathematics Competitions, 1999.
+4. Andreescu, T. Feng, Z., Mathematical Olympiads: Problems and Solutions from around the World, 1998-1999, Mathematical Association of America, 2000.
+5. Andreescu, T. Gelca, R., Mathematical Olympiad Challenges,
+Birkhiiuser, 2000.
+
+6. Barbeau, E., Polynomials, Springer-Verlag, 1989.
+7. Beckenbach, E. F., Bellman, R., An Introduction to Inequalities, New Mathematical Library, Vol. 3, Mathematical Association of America, 1961.
+8. Chinn, W. G., Steenrod, N. E., First Concepts of Topology, New Mathematical Library, Vol. 27, Random House, 1966.
+9. Cofman, J., What to Solve?, Oxford Science Publications, 1990.
+10. Coxeter, H. S. M., Greitzer, S. L., Geometry Revisited, New Mathematical Library, Vol. 19, Mathematical Association of America, 1967.
+11. Doob, M., The Canadian Mathematical Olympiad 1969-1993,
+University of Toronto Press, 1993.
+
+12. Engel, A., Problem-Solving Strategies, Problem Books in Mathematics, Springer, 1998.
+13. Fomin, D., Kirichenko, A., Leningrad Mathematical Olympiads 1987-1991, MathPro Press, 1994.
+
+138	Further Reading
+
+14. Fomin, D., Genkin, S., Itenberg, I., Mathematical Circles,
+American Mathematical Society, 1996.
+15. Graham, R. L., Knuth, D. E., Patashnik, 0., Concrete Mathematics, Addison-Wesley, 1989.
+16. Greitzer, S. L., International Mathematical Olympiads, 1959-1977, New Mathematical Library, Vol. 27, Mathematical Association of America, 1978.
+17. Grossman, I., Magnus, W., Groups and Their Graphs, New Mathematical Library, Vol. 14, Mathematical Association of America, 1964.
+18. Kazarinoff, N. D., Geometric Inequalities, New Mathematical Library, Vol. 4, Random House, 1961.
+19. Klamkin, M., International Mathematical Olympiads, 1978-1985, New Mathematical Library, Vol. 31, Mathematical Association of America, 1986.
+20. Klamkin, M., USA Mathematical Olympiads, 1972-1986, New Mathematical Library, Vol. 33, Mathematical Association of America, 1988.
+21. Kiirschak, J., Hungarian Problem Book, Volumes I & II, New Mathematical Library, Vols. 11 & 12, Mathematical Association of America, 1967.
+22. Kuczma, M., 144 Problems of the Austrian-Polish Mathematics Competition 1978-1993, The Academic Distribution Center, 1994.
+23. Larson, L. C., Problem-Solving Through Problems, Springer-Verlag,
+1983.
+24. Lausch, H., Bosch Giral, C., The Asian Pacific Mathematics Olym­ piad 1989-2000, AMT Publishing, Canberra, 2001.
+25. Liu, A., Chinese Mathematics Competitions and Olympiads 1981-1993, AMT Publishing, Canberra, 1998.
+26. Lozansky, E., Rousseau, C. Winning Solutions, Springer, 1996.
+27. Ore, 0., Graphs and their uses, Random House, 1963.
+28. Ore, 0., Invitation to number theory, Random House, 1967.
+29. Sharygin, I. F., Problems in Plane Geometry, Mir, Moscow, 1988.
+
+Further Reading	139
+
+30. Sharygin, I. F., Problems in Solid Geometry, Mir, Moscow, 1986.
+31. Shklarsky, D. 0, Chentzov, N. N; Yaglom, I. M., The USSR Olympiad Problem Book, Freeman, 1962.
+32. Slinko, A., USSR Mathematical Olympiads 1989-1992, AMT Publishing, Canberra, 1997.
+33. Soifer, A., Colorado Mathematical Olympiad: The first ten years,
+Center for excellence in mathematics education, 1994.
+34. Szekely, G. J., Contests in Higher Mathematics, Springer- Verlag, 1996.
+35. Stanley, R. P., Enumerative Combinatorics, Cambridge University Press, 1997.
+36. Taylor, P. J., Tournament of Towns 1980-1984, AMT Publishing, Canberra, 1993.
+37. Taylor, P. J., Tournament of Towns 1984-1989, AMT Publishing, Canberra, 1992.
+38. Taylor, P. J., Tournament of Towns 1989-1993, AMT Publishing, Canberra, 1994.
+39. Taylor, P. J., Storozhev, A., Tournament of Towns 1993-1997,
+AMT Publishing, Canberra, 1998.
+40. Tomescu, I., Problems in Combinatorics and Graph Theory, Wiley, 1985.
+41. Vanden Eynden, C., Elementary Number Theory, McGraw-Hill, 1987.
+42. Wilf, H. S., Generatingfunctionology, Academic Press, 1994.
+43. Wilson, R., Introduction to graph theory, Academic Press, 1972.
+44. Yaglom, I. M., Geometric Transformations, New Mathematical Library, Vol. 8, Random House, 1962.
+45. Yaglom, I. M., Geometric Transformations II, New Mathematical Library, Vol. 21, Random House, 1968.
+46. Yaglom, I. M., Geometric Transformations III, New Mathematical Library, Vol. 24, Random House, 1973.
+47. Zeitz, P., The Art and Craft of Problem Solving, John Wiley &
+Sons, 1999.
+
+
+
+
+
+Titu Andreescu is Director of the American Mathematics Competitions, serves as Head Coach of the USA lnternational Mathematical Olympiad {]MO)
+Team, is Chair of the USA Mathematical Olympiad Committee, and is Director of the USA Mathematical Olympiad Summer Program. Originally from Romania, Prof. Andrecscu received the Distinguished Professor Award from the Romanian Ministry of Education in 1983, then after moving to the USA was awarded the Edyth May Sliffe Award for Distinguished High School Mathematics Teaching from the MAA in 1994. ln addition, he received a Certificate of Appreciation presented by the President of the MAA for "his outstanding service as coach of the USA Mathematical Olympiad Program in preparing the USA team for its perfect performance in Hong Kong al the 1994 lMO".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+THE AUSTRALIAN MATHEMATICS TRUST
+
+
+ENRICHMENT	SERIES
+
+Zuming Feng graduated with a PhD from Johns Hopkins University with an emphasis on Algebraic Number Theory and Elliptic Curves. He teaches at Phillips Exeter
+Academy. l le also serves as a coach of the USA International Mathematical Olympiad (IMO) Team, is a member of the USA Mathematical Olympiad Committee, and is an assistant director of the USA Mathematical Olympiad Summer Program. He received the Edyth May Sliffe Award for Distinguished High School Mathematics Teaching from lhe MAA in 1996.
+
+lSBN I 876420 12 X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
